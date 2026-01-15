@@ -7,6 +7,7 @@ Step2: Search the element and return the index
 
 # Time Complexity
 - Array is iterating through each element once therefore, O(n)
+- Linear
 
 # Space Complexity
-- 
+- O(1) constant 
