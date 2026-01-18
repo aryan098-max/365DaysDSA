@@ -2,4 +2,4 @@
 
 1. Day 1 - searchElement
 2. Day 2 - countNegative, findLargest
-3. 
+3. Day 3 - secondLargest

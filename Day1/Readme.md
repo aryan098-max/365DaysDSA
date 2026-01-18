@@ -1,3 +1,5 @@
+# Search an Element in an Array
+
 # Pattern 
 
 Step1: Iterate through each & every element using a for loop
