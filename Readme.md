@@ -3,3 +3,4 @@
 1. Day 1 - searchElement
 2. Day 2 - countNegative, findLargest
 3. Day 3 - secondLargest
+4. Day 4 - startPattern(****)
