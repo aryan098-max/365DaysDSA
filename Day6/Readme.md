@@ -29,14 +29,17 @@
 
 - Question
 
- 1 
- 1 2 
- 1 2 3 
- 1 2 3 4
+ /*
+
  1 2 3 4 5 
+ 1 2 3 4
+ 1 2 3 
+ 1 2 
+ 1 
 
  */
 
+# Pattern
 
 1. Use two loops 
 2. First loop is for the row 
