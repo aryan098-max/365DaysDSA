@@ -5,4 +5,5 @@
 3. Second Largest
 4. Star Pattern
 5. Start Pattern, Number Pattern
-6. Number Pattern
+6. Number Pattern, reverse Number Pattern
+7. Reverse Star Pattern

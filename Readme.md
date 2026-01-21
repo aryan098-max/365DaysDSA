@@ -21,7 +21,7 @@
     1 2 3 4
     1 2 3 4 5
 
-6. Day 6 - numberPattern
+6. Day 6 - numberPattern, reverseNumberPattern
     1
     2 2
     3 3 3 
@@ -34,4 +34,9 @@
     1 2 
     1
 
-    
+7. Day 7 - reverseStarPattern
+            *
+          * *        
+        * * * 
+      * * * *
+    * * * * *  
