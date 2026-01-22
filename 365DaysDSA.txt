@@ -7,4 +7,4 @@
 5. Start Pattern, Number Pattern
 6. Number Pattern, reverse Number Pattern
 7. Reverse Star Pattern
-8. 1010 Number Pattern
+8. Number Pattern, Count Digit

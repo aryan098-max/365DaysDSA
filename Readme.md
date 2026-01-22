@@ -41,10 +41,16 @@
       * * * *
     * * * * *
 
-9. Day 8 - 1010 Number Pattern
+9. Day 8 - 1010 numberPattern, countDigits
       1 
       1 0
       1 0 1
       1 0 1 0
       1 0 1 0 1
       1 0 1 0 1 0  
+
+      1
+      0 1
+      0 1 0
+      1 0 1 0
+      1 0 1 0 1

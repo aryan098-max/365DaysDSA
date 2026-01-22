@@ -1,7 +1,7 @@
 # Star Patter **** (4 rows)
 
 
-# Pattern
+# Problem Pattern
 
 1. You need to master loop within a loop for this
 2. Block Scope - Every time execution enters the block scope variables are re-initalized

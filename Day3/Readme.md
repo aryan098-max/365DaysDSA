@@ -1,6 +1,6 @@
 # Second Largest Element in an Array
 
-# Pattern
+# Problem Pattern
 
 1. First Iterate through the entire array
 2. Find the first largest element 

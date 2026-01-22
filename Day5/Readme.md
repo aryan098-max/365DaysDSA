@@ -11,6 +11,7 @@
 
  */
 
+# Problem Pattern
 
 1. Use two loops 
 2. First loop is for the row 
@@ -39,7 +40,7 @@
 
  */
 
-
+# Problem Pattern
 1. Use two loops 
 2. First loop is for the row 
 3. Second loop is for the column

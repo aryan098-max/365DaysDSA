@@ -13,7 +13,7 @@
 */
 
 
-# Pattern
+# Problem Pattern
 
 1. This pattern is quite unique so far
 2. Use i for printing the pattern
@@ -27,6 +27,8 @@
 2. Space Complexity
 - O(1) Constant
 
+===========================================================================
+
 - Question
 
  /*
@@ -39,7 +41,7 @@
 
  */
 
-# Pattern
+# Problem Pattern
 
 1. Use two loops 
 2. First loop is for the row 

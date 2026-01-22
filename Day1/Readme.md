@@ -1,6 +1,6 @@
 # Search an Element in an Array
 
-# Pattern 
+# Problem Pattern 
 
 Step1: Iterate through each & every element using a for loop
 Step2: Search the element and return the index

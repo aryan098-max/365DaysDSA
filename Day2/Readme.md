@@ -7,10 +7,9 @@
 - In our childhood, we learned how to differenciate between positive and negative number
   by comparing that number with zero
 
+# Probelm Pattern
 Step1: Iterate through each and every element
 Step2: Declare a variable to keep the count number
-
-
 
 # Complextiy 
 
@@ -25,10 +24,7 @@ Step2: Declare a variable to keep the count number
 2. Problem - Find Largest Element 
 
 
-# Pattern
-
-# Note:
-
+# Problem Pattern
 Step1: Iterate through each and every element
 Step2: Assume first element the largest element and do the iteration
 
