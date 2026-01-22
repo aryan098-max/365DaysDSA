@@ -16,7 +16,11 @@
 # Complexity 
 
 1. Time Complexity
-- O(n) * O(n) * O(n) = O(n^3)
+- O(n) * O(n) + O(n) 
+= O(n) * (O(n) + O(n))
+= O(n) * 2O(n)
+= O(n)
+
 
 2. Space Complexity
 - O(1) - Constant
