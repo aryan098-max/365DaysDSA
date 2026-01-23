@@ -41,7 +41,7 @@
       * * * *
     * * * * *
 
-9. Day 8 - 1010 numberPattern, countDigits
+8. Day 8 - 1010 numberPattern, countDigits
       1 
       1 0
       1 0 1
@@ -54,3 +54,5 @@
       0 1 0
       1 0 1 0
       1 0 1 0 1
+
+9. Day 9 - palindrome, reverseNumber, findLastDigit, removeLastDigit - (Mathematically)
