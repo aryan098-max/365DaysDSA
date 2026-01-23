@@ -8,4 +8,4 @@
 6. Number Pattern, reverse Number Pattern
 7. Reverse Star Pattern
 8. Number Pattern, Count Digit
-9. Palindrome, Reverse Number, Find Last Digit, Count Last Digit
+9. Palindrome, Reverse Number, Extract Last Digit, Remove Last Digit
