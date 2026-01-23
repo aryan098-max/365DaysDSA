@@ -3,7 +3,13 @@
 sas
 
 # Problem Pattern
-1. First Method - Using a loop (i<j) concept
+
+# First Method
+1. Find reverse and compare the reversedNum with the original num
+2. To find reverse - use pure mathematical method 
+
+# Second Method for Array & String
+1. First Method - Using a loop (i<j) concept for string an array
 2. Find Reverse & Compare
 
 # Complexity 
@@ -28,6 +34,7 @@ sas
 1. First Step  - Use a loop
 2. Second Step - Find the last digit & store in a variable
 3. Third Step - Remove the last digit & repeat the process
+4. Formulate the reverseNumber Formula = reversedNumber * 10 + lastDigit
 
 # Complexity
 
@@ -41,6 +48,7 @@ sas
 # Extract Last Digit
 - n = n%10
 
+- After extracting the last digit save that variable into another variable
 
 # Remove Last Digit
 - n = Math.floor(n/10)
