@@ -56,3 +56,5 @@
       1 0 1 0 1
 
 9. Day 9 - palindrome, reverseNumber, findLastDigit, removeLastDigit - (Mathematically)
+
+10. Day 10 - reverseInteger
