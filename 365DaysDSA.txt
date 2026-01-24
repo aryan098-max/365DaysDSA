@@ -1,0 +1,11 @@
+15th January 365 Days DSA Challenge
+
+1. Search
+2. Count Negative, Find Largest
+3. Second Largest
+4. Star Pattern
+5. Start Pattern, Number Pattern
+6. Number Pattern, reverse Number Pattern
+7. Reverse Star Pattern
+8. Number Pattern, Count Digit
+9. Palindrome, Reverse Number, Extract Last Digit, Remove Last Digit
