@@ -12,6 +12,7 @@ function reverseInteger(num){
     }
 
     let limit = Math.pow(2,31);
+    // let limit = 2**31
 
     // af
     if(reversedNum > limit || reversedNum < -limit ){
