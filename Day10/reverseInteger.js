@@ -11,6 +11,13 @@ function reverseInteger(num){
         numCopy = Math.floor(numCopy/10);
     }
 
+    let limit = Math.pow(2,31);
+
+    // af
+    if(reversedNum > limit || reversedNum < -limit ){
+        return 0;
+    }
+
     return (num<0) ? -reversedNum : reversedNum
 }
 
