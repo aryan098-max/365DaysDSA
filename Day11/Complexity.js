@@ -18,5 +18,5 @@
   log n = x 
 
   Similarly, we have O(n) Linear because the graph is straight line for this
-
+  
  */
