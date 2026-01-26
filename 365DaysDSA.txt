@@ -10,4 +10,5 @@
 8. Number Pattern, Count Digit
 9. Palindrome, Reverse Number, Extract Last Digit, Remove Last Digit
 10. reverseInteger
-11. Complexity, Remove Duplicates
+11. Complexity
+12. Remove Duplicates

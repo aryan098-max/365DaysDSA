@@ -59,7 +59,9 @@
 
 10. Day 10 - reverseInteger
 
-11. Day 11 - removeDuplicates
+11. Day 11 - Complexity
+
+12. Day 12 - removeDuplicates
 
 
 
