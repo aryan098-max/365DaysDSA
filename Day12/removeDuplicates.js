@@ -1,22 +1,20 @@
-function removeDuplicates(arr){
+function removeDuplicates(nums){
 
-    for(let i=0; i<arr.length; i++){
+    // A tracker to track the position of unique elements
+    let tracker = 0;
 
-        for(let j=i+1; j<arr.length; j++){
+    for(let i=0; i<nums.length; i++){
 
-            if(arr[j] === arr[i]){
+        if(arr[i]>arr[tracker]){
 
-                for(let k=j; k<arr.length;k++){
-                    arr[k] = arr[k+1];
-                }
-                arr.length--;
-            }
+            tracker = tracker + 1;
+            arr[tracker] = arr[i];
         }
     }
 
-    return arr;
+    return (tracker+1);
 }
 
 const arr = [1,2,1,1,3,4]
-const uniqueArray = removeDuplicates(arr);
-console.log(uniqueArray);
+const uniqueElementsCount = removeDuplicates(arr);
+console.log("The total number of elements: ", uniqueElementsCount);
