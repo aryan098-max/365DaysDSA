@@ -63,5 +63,7 @@
 
 12. Day 12 - removeDuplicates
 
+13. Day 13 - removeElement
+
 
 

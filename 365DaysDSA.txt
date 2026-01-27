@@ -12,3 +12,4 @@
 10. reverseInteger
 11. Complexity
 12. Remove Duplicates
+13. Remove Element
