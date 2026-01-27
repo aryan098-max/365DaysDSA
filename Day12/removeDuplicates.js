@@ -11,7 +11,7 @@ function removeDuplicates(nums){
             arr[tracker] = arr[i];
         }
     }
-
+    console.log(nums);
     return (tracker+1);
 }
 

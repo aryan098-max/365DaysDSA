@@ -15,6 +15,9 @@
 
 # Problem Pattern
 
+- i - is moving forward
+- tracker - It is staying behind so that it can shift the element forward.
+
 1. The question is asking to return the total count of unique elements in 
    an array. It is asking to return the k (count of unique elements in an array).
 
