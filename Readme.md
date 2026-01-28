@@ -34,12 +34,18 @@
     1 2 
     1
 
-7. Day 7 - reverseStarPattern
+7. Day 7 - reverseStarPattern, pyramidPattern
             *
           * *        
         * * * 
       * * * *
     * * * * *
+
+     * 
+    *  * 
+   *  *  * 
+  *  *  *  * 
+ *  *  *  *  * 
 
 8. Day 8 - 1010 numberPattern, countDigits
       1 
@@ -65,5 +71,4 @@
 
 13. Day 13 - removeElement
 
-
-
+14. Day 14 - reverseString
