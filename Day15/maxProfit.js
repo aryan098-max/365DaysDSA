@@ -20,12 +20,14 @@ function maxProfit(prices){
         }
 
     }
-    if(lowestPrice < highestPrice){
 
-        mProfit = highestPrice - lowestPrice;
-    }
+    mProfit = highestPrice - lowestPrice;
 
-    return mProfit
+   if(mProfit > 0){
+        return mProfit;
+    } 
+
+    return 0;
 }
 
 const prices = [7,1,5,3,6,4];
