@@ -1,5 +1,7 @@
 # Question Pattern - Method 1
 
+- The first solution fails for prices = [2,4,1] test case
+
 # Problem Pattern
 1. Find the lowest element in the array
 2. Find the highest element in the array, which comes after the lowest

@@ -1,3 +1,6 @@
+// This solution fails for prices = [2,4,1] test case because in this question 
+// we are supposed to find the best combination not difference between the highest & lowest
+
 function maxProfit(prices){
 
     let lowestPrice = prices[0];
@@ -5,9 +8,9 @@ function maxProfit(prices){
     let lowestDay = 0;
     let mProfit = 0
 
-    for(let i=0; i<prices.length; i++){
+    for(let i=1; i<prices.length; i++){
 
-        if(lowestPrice > prices[i]){
+        if(prices[i] < lowestPrice){
             lowestPrice = prices[i];
             lowestDay = i;
         }
