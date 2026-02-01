@@ -75,7 +75,10 @@
 
 15. Best Time to Buy and Sell Stock
 
-16. Merge Sorted Arrays
+16. Merge Sorted Arrays - Question No. 88 (LeetCode)
 
-17. Move Zeros - 88
+17. Move Zeros - Question No. 283 (LeetCode)
+
+19. Max Consecutive Ones - Question No. 485 (LeetCode)
+
 
