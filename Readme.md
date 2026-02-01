@@ -79,6 +79,10 @@
 
 17. Move Zeros - Question No. 283 (LeetCode)
 
-19. Max Consecutive Ones - Question No. 485 (LeetCode)
+18. Max Consecutive Ones - Question No. 485 (LeetCode)
+
+19. Missing Number - Question No. 268 (LeetCode)
+
+
 
 
