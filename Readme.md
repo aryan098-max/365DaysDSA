@@ -67,7 +67,7 @@
 
 11. Day 11 - Complexity
 
-12. Day 12 - removeDuplicates
+12. Day 12 - removeDuplicates - Question No. 26 Leetcode
 
 13. Day 13 - removeElement
 
