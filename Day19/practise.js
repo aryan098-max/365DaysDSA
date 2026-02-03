@@ -1,19 +1,26 @@
-function removeDuplicates(nums){
+function maxProfit(prices){
 
-    let tracker = 0;
+     let lowestPrice = prices[0];
+    let highestPrice = prices[1];
+    let maximumProfit = 0;
+    let maxValueCheck = 0;
 
-    for(let i=1; i<nums.length; i++){
+    for(let i=1; i<prices.length; i++){
 
-        if(nums[i] > nums[tracker]){
-            
-            tracker = tracker + 1;
-            nums[tracker] = nums[i];
+        maxValueCheck = prices[i] - lowestPrice;
+
+        if(maxValueCheck > maximumProfit){
+            maximumProfit = maxValueCheck
+        }
+
+        if(prices[i]<lowestPrice){
+            lowestPrice = prices[i];
         }
     }
 
-    return tracker + 1;
+    return maximumProfit;
 }
 
-const nums = [0,1,0,2,3];
-const output = removeDuplicates(nums);
+const prices = [7,1,5,4,6,3];
+const output = maxProfit(prices);
 console.log(output);

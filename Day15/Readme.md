@@ -29,6 +29,11 @@
 6. Therefore, we are going to increase the i each iteration for evaluating 
    each corner case
 
+- Hint 
+- We are not going to declare a variable highestPrice for solving the problem
+- We are going to use prices[ i ] as means to solve the problem and comparing 
+  the value each time with maximumProfit
+
 # Complexity
 
 1. Time Complexity
