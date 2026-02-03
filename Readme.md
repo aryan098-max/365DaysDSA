@@ -83,3 +83,5 @@
 
 19. Missing Number - Question No. 268 (LeetCode)
 
+20. Single Number - Question No. 136 (Leet Code)
+
