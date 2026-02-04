@@ -3,9 +3,15 @@
 input - [ 1,2,2,3,3 ]
 output - 1
 
+- Bitwise XOR working
+1. Same value gives 0 - 1 XOR 1 = 0, 0 XOR 0 = 0
+2. Different value gives 1 - 1 XOR 0 = 1
+3. It is used for removing duplicates in the array
+
 # Problem Pattern
 
-1.
+1. For solving the problem with O(n) and O(1), time & space complexity
+2. We need to use Bitwise XOR
 
 
 # Complexity
