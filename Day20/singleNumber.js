@@ -1,4 +1,4 @@
-function singleNumebr(){
+function singleNumber(){
 
        const numsCount = {};
 
@@ -13,6 +13,9 @@ function singleNumebr(){
         }
     }
 
+    // what does the obj looks like
+    // console.log(numsCount);
+
     for(let i=0; i<nums.length; i++){
 
         if (numsCount[nums[i]] === 1){
@@ -20,7 +23,6 @@ function singleNumebr(){
             return nums[i];
         }
     }
-
 }
 
 const nums  = [1,2,2,3,3];
