@@ -5,6 +5,7 @@
  3. Organisational Hierarchies
 
  Recursion: A function calling itself is called recursion. We need a base case to stop the recursion
+ In other words, a function calling itself to solve the smaller version of the problem is called recursion
 
  Two Parts of Recursion
 
