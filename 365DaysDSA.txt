@@ -20,3 +20,5 @@
 18. Max Consecutive Ones - Question No. 485 (LeetCode)
 19. Missing Number - Question No. 268 (LeetCode)
 20. Single Number - Question No. 136 (LeetCode)
+21. Recursion Introduction
+22. Sum of first n Numbers
