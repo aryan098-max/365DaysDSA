@@ -1,3 +1,5 @@
+ // Time Complexity - O(n)
+
 function recursionVariation(n){
 
     if (n === 0) return;

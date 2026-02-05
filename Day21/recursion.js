@@ -18,6 +18,8 @@
  
  */
 
+ // Time Complexity - O(n)
+
  function recursion(n){
     if(n === 0){
         return;
@@ -30,3 +32,4 @@
  }
  let n = 5;
  recursion(n);
+
