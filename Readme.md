@@ -93,6 +93,6 @@
 
 22. Sum of first n Numbers
 
-23. Sum of all numbers in Array
+23. Sum of all numbers in an Array, Sum of all Odd numbers in an Array
 
 
