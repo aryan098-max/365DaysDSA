@@ -8,12 +8,16 @@
     * * * *
     * * * *
     * * * * 
+    * * * * 
+
 
 5. Day 5 - startPattern
     *
     * *
     * * * 
     * * * * 
+    * * * * *
+
 
     1
     1 2
@@ -88,4 +92,7 @@
 21. Recursion Introduction
 
 22. Sum of first n Numbers
+
+23. Sum of all numbers in Array
+
 
