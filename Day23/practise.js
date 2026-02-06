@@ -16,7 +16,6 @@ function starPattern(n){
 
         console.log(row);
     }
-
 }
 
 let n = 6;
