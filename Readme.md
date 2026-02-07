@@ -95,4 +95,5 @@
 
 23. Sum of all numbers in an Array, Sum of all Odd numbers in an Array
 
+24. Factorial 
 
