@@ -1,23 +1,18 @@
-function checkPalindrome(num){
+function missingNumber(nums){
 
-    let numCopy = num;
-    let reversedNum = 0;
-
-    while(numCopy > 0){
-
-        let lastDigit = numCopy % 10;
-        reversedNum = (reversedNum * 10) + lastDigit;
-        numCopy = Math.floor(numCopy/10);
+    let n = nums.length;
+    let numsTotal = 0;
+    let totalSum = n * Math.floor(n+1)/2;
+    
+    for(let i=0; i<nums.length; i++){
+        numsTotal = numsTotal + nums[i];
     }
 
-    if(reversedNum === num){
-        return true;
-    } else {
-        return false;
-    }
+    let missingNum = totalSum - numsTotal;
+    return missingNum;
+
 }
 
-let num = 121;
-const isPalindrome = checkPalindrome(num);
-console.log(isPalindrome);
-
+const nums = [3,0,1 ]
+const missedNum = missingNumber(nums);
+console.log(missedNum);
