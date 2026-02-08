@@ -97,3 +97,4 @@
 
 24. Factorial 
 
+25. Power of Two - leet code 231

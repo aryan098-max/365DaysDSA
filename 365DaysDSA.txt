@@ -24,4 +24,5 @@
 22. Sum of first n Numbers
 23. Sum of all numbers in an Array, Sum of Odd numbers in an Array
 24. Factorial
+25. Power of Two - LeetCode 231
 
