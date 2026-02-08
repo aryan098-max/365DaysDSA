@@ -73,7 +73,7 @@
 
 12. Day 12 - removeDuplicates - Question No. 26 Leetcode
 
-13. Day 13 - removeElement
+13. Day 13 - removeElement - Leet Code Question 27
 
 14. Day 14 - reverseString
 
