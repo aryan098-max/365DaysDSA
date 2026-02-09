@@ -25,4 +25,6 @@
 23. Sum of all numbers in an Array, Sum of Odd numbers in an Array
 24. Factorial
 25. Power of Two - LeetCode 231
+26. Fibonacci Number - LeetCode 509
+27. 
 
