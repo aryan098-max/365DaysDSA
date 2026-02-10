@@ -1,22 +1,16 @@
-function maxProfit(prices){
+function moveZeros(nums){
 
-    let lowestPrice = prices[0];
-    let mProfit = 0;
+    let tracker = 0;
 
-    for(let i=1; i<prices.length; i++){
+    for(let i=0; i<nums.length; i++){
 
-        if(prices[i]-lowestPrice > mProfit){
-            mProfit = prices[i]-lowestPrice;
-        }
-
-        if(prices[i]<lowestPrice){
-            lowestPrice = prices[i];
-        }
+       
     }
 
-    return mProfit;
+    return nums;
+ 
 }
 
-const prices = [7,1,5,3,6,4];
-const maximumProfit = maxProfit(prices);
-console.log(maximumProfit);
+const nums = [0,1,0,3,12]
+const output = moveZeros(nums);
+console.log(output);

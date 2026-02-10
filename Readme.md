@@ -100,3 +100,5 @@
 25. Power of Two - Leet Code 231
 
 26. Fibonacci Number - Leet Code 509
+
+27. 
