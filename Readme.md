@@ -102,3 +102,9 @@
 26. Fibonacci Number - Leet Code 509
 
 27. 
+
+28. 
+
+29. 
+
+30. 
