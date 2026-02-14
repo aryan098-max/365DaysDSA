@@ -35,7 +35,27 @@
 # Complexity
 
 1. Time Complexity
-- O(n) - Linear
+- Exponential - power
+- O(2^n-1), Ignore constants - O(2^n)
+- fib(4), O(2^4-1), O(2^3)
+- fib(4), goes 3 levels down, at three 3 levels there are 8 calls
+
+- We can also solve the time complexity using a formula approach
+- T(n) = T(n-1) + T(n-2) + C
+       = 2T(n-1) + C (ConsiderT(n-1) === T(n-2))
+       = 2{2 T(n-1-1)+ C} + C (T(n-1) = 2 T(n-1))
+       = 4 T(n-2) + 3C
+       = 4{2 T(n-3)+C} + 3C
+       = 8 T(n-3) + 7C 
+       = 2^k T(n-k) + (2^k - 1)C ( We are generating a general formula)
+       - We derived the general formula for different values of k 
+
+       - We are subtracting n to reach the base case; therefore, n-k = 0
+       n = k
+
+       = 2^n T(0) + (2^n -1)C
+       Therefore, we can say 
+       = O(2^n) Exponential Time Complexity - Worst 
 
 
 2. Space Complexity
