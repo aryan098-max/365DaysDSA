@@ -101,9 +101,9 @@
 
 26. Fibonacci Number - Leet Code 509
 
-27. 
+27. Linear Search
 
-28. 
+28. Binary Search
 
 29. 
 

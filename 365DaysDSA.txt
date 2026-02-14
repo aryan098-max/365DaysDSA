@@ -26,8 +26,8 @@
 24. Factorial
 25. Power of Two - LeetCode 231
 26. Fibonacci Number - LeetCode 509
-27. 
-28.
+27. Linear Search
+28. Binary Search
 29.
 30.
 31. 
