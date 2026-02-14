@@ -3,10 +3,6 @@ function binarySearch(nums,target){
       if(nums.length<1){
         return -1;
     }
-
-    if(nums.length === 1){
-        return 0;
-    }
     
     let start = 0;
     let end = nums.length-1;
@@ -30,7 +26,7 @@ function binarySearch(nums,target){
     return -1;
 }
 
- const nums = [1,3];
+ const nums = [-5];
  const target = 3;
  const output = binarySearch(nums, target);
  console.log(output);
