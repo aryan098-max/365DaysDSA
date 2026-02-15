@@ -17,6 +17,7 @@ Outut = 4
 - n is getting divided n/2, n/4, n/8, therefore, n/2^k = 1, therefore, taking log on both sides
 - log n = log (base2) 2^k (log(base 2) 2 is 1)
 - log n = k
+- O(logn) - Logarithmic
 
 - Space Complexity
 - O(1)
