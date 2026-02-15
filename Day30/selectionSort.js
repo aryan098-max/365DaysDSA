@@ -4,21 +4,24 @@ function selectionSort(nums){
 
     for(let i=0; i<n-1; i++){
 
-        let min = nums[i];
+        let minElement = nums[i];
         let index = i;
 
         for(let j=i+1; j<n; j++){
 
-            if(nums[j]<min){
-                min = nums[j];
+            if(nums[j]<minElement){
+                minElement = nums[j];
                 index = j;
             }
 
         }
 
-        let temp = nums[i];
-         nums[i] = min;
-         nums[index] = temp;
+        if(index != i ){
+            let temp = nums[i];
+            nums[i] = minElement;
+            nums[index] = temp;
+        }
+       
     }
     return nums;
 
