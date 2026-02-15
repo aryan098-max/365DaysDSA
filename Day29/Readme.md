@@ -10,7 +10,9 @@
   [ 5,2,4,1 ], 5 is compared 2, 4, 1 - It is compared three times. Therefore, n-1
 
 - The second loop runs till  = n-1-i, because each time the largest element is sorted to last position.
-- Therefore, the need for checking the last position doesn't exist, i helps us to achieve that
+- Therefore, the need for checking the last position doesn't exist, i helps us to achieve that. The last index i is sorted, we are controlling the comparison with the
+last index
+
 - One major confusion is that we are comparing j with i or what, j is comared with j+1
 - if (arr[ j ] > arr[ j+1 ]) swap two numbers
 
