@@ -105,8 +105,10 @@
 
 28. Binary Search
 
-29. 
+29. Bubble Sort
 
-30. 
+30. Selection Sort
 
-31. 
+31. Insertion Sort
+
+32. Merge Sort
