@@ -15,11 +15,14 @@
  # Complexity
 
  1. Time Complexity
- - O(1) - Constant, built in function used
+ - Trim function takes - O(n)
+ - Split function also takes - O(n)
+ - O(n) + O(n) = 2O(n) = O(n) - Linear, built in function used
 
 
  2. Space Complexity
- - O(1) - Constant
+ - Split creates a new array, which takes new space
+ - O(n) - Constant
 
 
 ===================================================================
@@ -63,22 +66,17 @@
 
  # Problem Pattern
 
-- n = s.length-1, start from the last of the string 
+- Solve the problem in a single loop
+- If space is not encountered increase the count, else decrease the --n
+- Finally, use a tricky approach of using the value of count variable to
+  stop the loop
 
-- First, while loop is used to traverse back to the character
-- Until, character is reached it traverse backward
-- break is used to break the loop, when character is found and for
-  edge cases empty character " " 
-
-- Introduce a count variable which keep counts of the character
-- Second, while loop is used to traverse backward until " " is found
-- Each time a character is encountered increase the value of count
-
+- We are using the value of count to know if " " has been encountered again
+- If count>0 break
 
  # Complexity
-
  1. Time Complexity
- - O(n) * O(n) = O(n^2)
+ -  O(n) - Linear
 
 
  2. Space Complexity
