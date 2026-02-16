@@ -103,7 +103,7 @@
 
 27. Linear Search
 
-28. Binary Search
+28. Binary Search - Leet Code 704
 
 29. Bubble Sort
 
@@ -112,3 +112,5 @@
 31. Insertion Sort
 
 32. Merge Sort
+
+33. Length of Last Word
