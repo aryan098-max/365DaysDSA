@@ -1,0 +1,7 @@
+String Methods
+
+# Note: All the string methods return a new array
+
+1. s.split(" ") - splits the string into an array by spaces
+2. s.split("") - splits the string into an array character by character
+3. s.split(",") - splits the string into an array of characters (,) 
