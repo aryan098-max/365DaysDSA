@@ -3,5 +3,5 @@ function fibNumber(n){
 
 }
 
-let n = 3
+let n = 5
 const output = fibNumber(n);
