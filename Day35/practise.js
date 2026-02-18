@@ -1,15 +1,23 @@
-function singleNumber(nums){
+function fibIterative(n){
 
-    let xor = 0;
+    // base case
+    if(n<=1) return n;
 
-    for(let i=0; i<nums.length; i++){
-        
-        xor = xor ^ nums[i];
+    let preValue = 0;
+    let currentValue = 1;
+    let nextValue = 0;
+
+    for(let i=1; i<n; i++){
+
+        nextValue = preValue + currentValue;
+        preValue = currentValue;
+        currentValue = nextValue;
+
     }
 
-    return xor;
+    return nextValue;
 }
 
-const nums = [1,1,2,3,3,4,4];
-const output = singleNumber(nums);
+const n = 5;
+const output = fibIterative(n);
 console.log(output);
