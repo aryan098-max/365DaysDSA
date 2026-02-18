@@ -13,6 +13,15 @@ output - 1
 1. For solving the problem with O(n) and O(1), time & space complexity
 2. We need to use Bitwise XOR
 
+- How bitwise OR is calculated?
+- [ 1, 4 ] - Initiallly between 0 ^ 1 = 1
+- For 4, 1 is and 4 is converted into binary 
+- 001
+  100
+  ----
+  101 (5) = is the ans
+- In, this way it is calculated, it doesn't work if there are three digits with the same number
+
 
 # Complexity
 - O(n) - Linear

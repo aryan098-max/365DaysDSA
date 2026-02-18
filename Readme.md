@@ -101,4 +101,18 @@
 
 26. Fibonacci Number - Leet Code 509
 
-27. 
+27. Linear Search
+
+28. Binary Search - Leet Code 704
+
+29. Bubble Sort
+
+30. Selection Sort
+
+31. Insertion Sort
+
+32. Merge Sort
+
+33. Length of Last Word - Leet Code 58
+
+34. Find Words Containing - Leet Code 2942

@@ -4,10 +4,14 @@ function moveZeros(nums){
 
     for(let i=0; i<nums.length; i++){
 
+        if(nums[i]!== 0){
+            nums[i] = nums[tracker];
+            tracker++;
+        }
        
     }
 
-    return nums;
+    return tracker;
  
 }
 
