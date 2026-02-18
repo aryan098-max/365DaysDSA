@@ -34,6 +34,7 @@
 32. Merge Sort
 33. Length of Last Word - LeetCode 58
 34. Find Words Containing - LeetCode 2942
+35. Jewels and Stones - LeetCode 771
 
 
 

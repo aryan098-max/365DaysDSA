@@ -1,22 +1,15 @@
-function secondLargest(nums){
+function singleNumber(nums){
 
-    let fLargest = -Infinity;
-    let sLargest = -Infinity;
+    let xor = 0;
 
     for(let i=0; i<nums.length; i++){
-
-        if(nums[i]>fLargest){
-            sLargest = fLargest;
-            fLargest = nums[i];
-        } else if(nums[i] > sLargest && nums[i]!== fLargest){
-
-            sLargest = nums[i];
-        }
+        
+        xor = xor ^ nums[i];
     }
 
-    return sLargest === -Infinity? null:sLargest;
+    return xor;
 }
 
-const nums = [4,9,8,7,5,1];
-const output = secondLargest(nums);
+const nums = [1,1,2,3,3,4,4];
+const output = singleNumber(nums);
 console.log(output);
