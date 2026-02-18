@@ -1,3 +1,4 @@
+# 1st Approach
 # Question Problem, Method 1
 
 - Input 
@@ -35,6 +36,7 @@ const n = 3;
 - O(n) - Linear, a duplicated array was created
 
 ===========================================================================
+# 2nd Approach
 
 # Question Problem, Method 2
 
@@ -63,6 +65,34 @@ const n = 3;
 
 - The position of m and n in this solution is at m and n
 
+
+# Complexity
+
+1. Time Complexity
+- O(n) - Linear
+
+2. Space Complexity
+- O(1)
+
+===========================================================================
+
+
+# Question Problem, Method 2
+
+- Input 
+const nums1 = [ 1,2,3];
+const nums2 = [ 2,4,5 ];
+const m = 3;
+const n = 3;
+
+- Output
+- [ 1, 2, 2, 3, 4, 5 ]
+
+
+# Probelm Pattern
+
+1. Use while loop and whichever is smaller assinged into the result array
+2. Finally for exhaustion use the combination of spread and slice the remaning elements
 
 # Complexity
 

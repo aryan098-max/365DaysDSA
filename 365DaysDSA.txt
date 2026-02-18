@@ -31,7 +31,7 @@
 29. Bubble Sort
 30. Selection Sort
 31. Insertion Sort
-32. Merge Sort
+32. Merge Sort - Leet Code 912  
 33. Length of Last Word - LeetCode 58
 34. Find Words Containing - LeetCode 2942
 35. Jewels and Stones - LeetCode 771
