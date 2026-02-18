@@ -1,11 +1,21 @@
-function fibRecursive(n){
+function lengthOfLastWord(s){
 
-    // base case
-    if(n<=1) return n;
+    let n = s.length-1
 
-    return fibRecursive(n-1) + fibRecursive(n-2);
+    let count = 0;
+    while(n>=0){
+
+        if(s[n] !== " "){
+            ++count;
+        } else if(count>0){
+            break;
+        }
+        --n;
+    }
+
+  return count;
 }
 
-const n = 5;
-const output = fibRecursive(n);
+const s = " Hello  World    ";
+const output = lengthOfLastWord(s);
 console.log(output);

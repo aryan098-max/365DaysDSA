@@ -2,6 +2,7 @@ function lengthOfLastWord(s){
 
     s = s.trim();
     s = s.split(" ");
+    console.log(s);
     return s[s.length-1].length;
 }
 

@@ -22,6 +22,6 @@ function fibNumber(n){
 
 }
 
-let n = 1
+let n = 3
 const output = fibNumber(n);
 console.log(output);
