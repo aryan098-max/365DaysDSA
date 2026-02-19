@@ -34,7 +34,7 @@ Output = [2]
 
 =================================================================================
 
-# Approach 2
+# Approach 2 is the Optimized Solution using Set data structure reducing the Time to O(n)
 # Question Stone and Jewels
 
 Q. Find how many jewels are there within the stones?
