@@ -118,3 +118,5 @@
 34. Find Words Containing - Leet Code 2942
 
 35. Jewels and Stones - Leet Code 771
+
+36. Find Most Frequent Vowel and Consonant
