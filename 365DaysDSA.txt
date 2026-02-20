@@ -36,6 +36,8 @@
 34. Find Words Containing - LeetCode 2942
 35. Jewels and Stones - LeetCode 771
 36. Find Most Frequent Vowel and Consonant
+37. Split a String in Balanced Strings
+
 
 
 

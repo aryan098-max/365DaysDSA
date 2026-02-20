@@ -119,4 +119,6 @@
 
 35. Jewels and Stones - Leet Code 771
 
-36. Find Most Frequent Vowel and Consonant
+36. Find Most Frequent Vowel and Consonant - Leet Code 3541
+
+37. Split a String in Balanced Strings
