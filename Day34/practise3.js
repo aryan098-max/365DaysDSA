@@ -1,4 +1,4 @@
-function selectionSort(nums){
+function insertionSort(nums){
 
     let n = nums.length;
 
@@ -15,8 +15,6 @@ function selectionSort(nums){
         }
         nums[perv+1] = curr;
     }
-
-
 }
 
 const nums = [5,2,4,1];

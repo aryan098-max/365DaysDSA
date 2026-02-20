@@ -16,6 +16,8 @@ function selectionSort(nums){
 
         }
 
+        // Saving time on Sawpping Operations
+        // If array is sorted, saved time on swapping
         if(index != i ){
             let temp = nums[i];
             nums[i] = minElement;
