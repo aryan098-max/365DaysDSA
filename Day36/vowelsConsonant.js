@@ -31,7 +31,6 @@ function maxFreqSum(s){
             }
         }        
     }
-    console.log(map);
     return maxConsonant + maxVowel;
 }
 
