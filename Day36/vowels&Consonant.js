@@ -13,12 +13,12 @@ function maxFreqSum(s){
 
     // Finding the maxVowel and maxConsonant
 
-    let vowels = ["a", "e", "i", "o", "u"];
+    let vowelsSet = new Set(["a", "e", "i", "o", "u"]);
     let maxVowel = 0;
     let maxConsonant = 0;
     for(let i=0; i<s.length; i++){
 
-        if(vowels.includes(s[i])){
+        if(vowelsSet.has(s[i])){
             // maxVowel = Math.max(maxVowel, map[s[i]]);
 
             if(map[s[i]]>maxVowel){
