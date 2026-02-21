@@ -122,3 +122,5 @@
 36. Find Most Frequent Vowel and Consonant - Leet Code 3541
 
 37. Split a String in Balanced Strings - Leet Code 1221
+
+38. Reverse String - LeetCode 541
