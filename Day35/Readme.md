@@ -4,7 +4,7 @@
 - Find how many jewels are there within the stones
 Jewels - "aA"
 Stones - "aAAbbbb"
-Output = [2]
+Output = [ 2 ]
 
 # Probelm Pattern - Brute Force Appraoch Different Way
 
