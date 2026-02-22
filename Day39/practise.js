@@ -1,24 +1,19 @@
-function numberPattern(n){
+function removeDuplicates(nums){
 
-    let toggle = 1;
+    let t = 0;
 
-    for(let i=0; i<n; i++){
+    for(let i=0; i<nums.length; i++){
 
-        let row = ""
-
-        for(let j=0; j<=i; j++){
-
-            row = row + toggle;
+        if(nums[i] > nums[t]){
             
-            if(toggle === 1){
-                toggle = 0;
-            } else {
-                toggle = 1;
-            }
+            t = t+1;
+            nums[t] = nums[i];
         }
-        console.log(row);
     }
+    
+    return t+1;
 }
 
-let n = 5;
-const output = numberPattern(n);
+let nums = [1,1,2];
+const output = removeDuplicates(nums);
+console.log(output);
