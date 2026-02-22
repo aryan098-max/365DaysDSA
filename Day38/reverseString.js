@@ -1,4 +1,4 @@
-function reverseString(){
+function reverseStr(){
 
-    
+
 }
