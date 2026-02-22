@@ -124,3 +124,5 @@
 37. Split a String in Balanced Strings - Leet Code 1221
 
 38. Reverse String - LeetCode 541
+
+39. Palindrome Check - Leet Code 125
