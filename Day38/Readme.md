@@ -33,5 +33,5 @@ output = "bacdfe"
 - Thefeore, Time Complexity is O(n)
 
 2. Space Complexity
-- Because we are creating an array
+- Because we are creating an array splitting the string into an array
 - O(n)
