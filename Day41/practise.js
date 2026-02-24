@@ -1,15 +1,20 @@
-function singleNumber(nums){
+function missingNumber(nums){
 
-    let xor = 0;
+    let n = nums.length;
+    let totalSum = Math.floor(n * (n+1)/2);
+    let currentSum = 0;
+    let missingInt = 0;
 
     for(let i=0; i<nums.length; i++){
 
-        xor = xor ^ nums[i];
+        currentSum = currentSum + nums[i];
+
     }
 
-    return xor;
+    return missingInt = totalSum - currentSum;
+
 }
 
-const nums = [1,1,2,3,3];
-const output = singleNumber(nums);
+const nums = [5,1,2,3,0];
+const output = missingNumber(nums);
 console.log(output);
