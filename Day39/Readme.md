@@ -36,11 +36,11 @@ Input = "race a car" becomes filteredString = "raceacar" using loop, s.match() b
 2. Space Complexity
 - Using extra space to create an array, filteredString, reversedString
 - O(n) + O(n) + O(n) = 3O(n) = O(n)
-=============================================================================================
+===================================================================================================================
 
 # 2nd Approach - Reversing Logic
-- However, we can also use another technique for reversing the string using one sinle loop, which is concaenating from
-  backward
+- However, we can also use another technique for reversing the string using one sinle loop, which is 
+  concaenating from backward
 
 For example,
 
@@ -63,3 +63,28 @@ Input = "race a car" becomes filteredString = "raceacar" using loop, s.match() b
 2. Space Complexity
 - Using extra space for reversedString, filteredString
 - O(n) + O(n) = 2n = n - Constant
+
+===================================================================================================================
+
+# 3rd Approach - Two pointer appraoch, No extra space - O(1)
+
+1. Don't use extra space
+2. Use while loop while(i<j)
+3. Total 4 conditions
+    - First if for if(!s[i].match(regex)) i++
+    - Second for j, j--
+    - Third for i === j
+    - Fourth false
+
+4. To move when space and , comma are encountered use the logic of if(!s[i]) - when s[i] 
+   is not equal to alphanumeric move ahead for i and move backward for j
+
+
+# Complexity
+
+1. Time Complexity
+- O(n) - Linear
+
+2. Space Complexity
+- No, extra space two pointer approach
+- O(1) - Constant
