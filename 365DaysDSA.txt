@@ -40,7 +40,8 @@
 38. Reverse String - LeetCode 541
 39. Palindrome Check - LeetCode 125
 40. Largest Odd Number in a String - Leet Code 1903
-
+41. Longest Common Prefix - Leet Code 14
+42. Valid Anagram - Leet Code 242
 
 
 

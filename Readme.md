@@ -131,3 +131,5 @@
 
 41. Longest Common Prefix - Leet Code 14
 
+42. Valid Anagram - Leet Code 242
+
