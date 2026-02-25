@@ -75,7 +75,7 @@
 
 13. Day 13 - removeElement - Leet Code Question 27
 
-14. Day 14 - reverseString
+14. Day 14 - reverseString - Leet Code 344
 
 15. Best Time to Buy and Sell Stock - Question No. 121 (LeetCode)
 
@@ -126,3 +126,8 @@
 38. Reverse String - LeetCode 541
 
 39. Palindrome Check - Leet Code 125
+
+40. Largest Odd Number in a String - Leet Code 1903
+
+41. Longest Common Prefix - Leet Code 14
+

@@ -3,29 +3,38 @@
 - This means that if there are "abcdefg" total there are 7 letters
 - For every 4 characters we have to reverse 2 characters, k = 2 & 2k =4
 
-- str = "abcd"
-- Output = "bacd"
+s = "abcdef";
+k = 2;
+output = "bacdfe" 
 
 # Problem Pattern
 
-- First and foremost we need to change the string in to array using array.split()
-- array.split() changes the string into array of characters
+- Strings are immubtable; therefore, split the string into [ 'a' ] single characters
+- s.split("") 
 
-- Now, first we will runn a loop which will jump from 0 to k, x = x + 2*k,
-  We need to add to match the value
-- if 2 = k, 2k = 4, Therefore, first the value is x = 4, -> x = 8, x = 16
+- The first loop runs i = i+(2*k) times, so that it can jump to the 2k character
 
-- For, the second loop, we need to introduce a variable mid = k/2. The mid is
-  half of k in this reverseString question because only the first 2 characters are
-  being reversed,m therefore, divide k/2.
-- The second loop run till mid and it will revese the string
-  
+- The second loop runs normally, however, we need to introduce two new variables
+- n = k , mid = k/2, our second loop runs till mid because, abcd, we need to reverse
+  a & b, therefore, mid runs till 0 and 1, only the first and second string are reversed
+
+- Next, during swapping we will follow the same pattern as reverse stringI. s[ j ] = s[ n-1-j ]
+  why we are reducing n by 1 because n = k = 2, which inlcudes 0, 1 & 2 index 1 index extra
+- Therefore, s[ j ] = s[ n-1-j ], why -j because we have to reduce from back
+
+- Finally, we need to also add s[ j+i ], s[ n-1-j+i ], we need to add i each time first time it is 
+  0, second time if k=2 it is, 4, "abcdefgh", second time it will start from e; therefore, add (i)
+  everywhere
+ 
 
 
 # Complexity
 
 1. Time Complexity
-
-
+- The outer loop is jumping 2k times while inner is running k times, which is compartively
+  less than 2k 
+- Thefeore, Time Complexity is O(n)
 
 2. Space Complexity
+- Because we are creating an array splitting the string into an array
+- O(n)
