@@ -4,11 +4,11 @@ function findWordsContaining(words,x){
 
     for(let i=0; i<words.length; i++){
 
-        let word = words[i];
+        // let word = words[i];
 
-        for(let j=0; j<word.length; j++){
+        for(let j=0; j<words[i].length; j++){
 
-            if(word[j] === x){
+            if(words[i][j] === x){
                 result.push(i);
                 break;
             }
