@@ -15,6 +15,9 @@ Output = maxVowel + maxConsonant = 6
 
 ## Note: Whenever, we have to solve the count question of string we have to use map an obj
 
+## Note: If you write: two checks together: !(vowelSet.has(key)) && map[key]>maxConsonant, you have to 
+## repeat the vowel check if(vowelSet.has(key) && map[key]>maxVowel), other wise not
+
 1. First create a map obj and store count of different characters in that obj
 2. Use a loop for checking the key exists inside the obj or not and increase the count if key already exists
 
