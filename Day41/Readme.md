@@ -40,4 +40,13 @@ Explanation: There is no common prefix among the input strings.
 2. Space Complexity
 - O(1) - Constant
 
- 
+===========================================================================================================
+
+# 2nd Approach 
+
+- Introduce a for(loop) instead of using while loop - the logic to stop the loop is length of first string
+- Second change Introduce a variable called commonPrefix in global and keep concatenating the string unless
+  the condition string mismatch and the length of second substring is finished
+  : If(ch !== strs[j][i] || i>= strs[j].length) return commonPrefix;
+
+- Keep concatenating outside the j loop - commonPrefix = commonPrefix + ch;
