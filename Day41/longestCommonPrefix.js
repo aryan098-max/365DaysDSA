@@ -9,7 +9,7 @@ function longestCommonPrefix(strs){
         // for loop run from 1 until the length of the array is exhausted
         for(let i=1; i<strs.length; i++){
 
-            if(ch !== strs[i][x] || x === strs[0].length){
+            if(ch !== strs[i][x] || x >= strs[i].length){
 
                 return strs[0].substring(0, x);
             }
