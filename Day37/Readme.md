@@ -1,3 +1,4 @@
+# Appraoch 1
 # Question - Split a String into Balanced String
 
 - A balanced string is a string which has equal number of R and L
@@ -22,6 +23,7 @@
 
 ======================================================================================
 
+# Approach 2
 # Question - Split a String into Balanced String
 
 - Whenever you encounter balance question use the logic of ++ temp and --temp

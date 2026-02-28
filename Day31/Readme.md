@@ -11,8 +11,8 @@
 
 1. Outer loop
 - Introduce two variables in the outer loop, curr = nums[i], prev = i - 1;
-- In insertion sort, we are considering min = nums[i], index = i,
-- Similarly, In selection sort, we are introducing two variables on the outer loop
+- In selection sort, we are considering min = nums[i], index = i,
+- Similarly, In insertion sort, we are introducing two variables on the outer loop
 
 2. Inner loop, Using while()
 - while(nums[ prev ]> curr) - keep running until this condition is met
