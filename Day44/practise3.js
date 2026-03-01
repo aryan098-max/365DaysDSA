@@ -1,31 +1,32 @@
 function validAanagram(s,t){
-
-    // base condition length not equal return false
+    // length constraint
     if(s.length !== t.length){
         return false;
     }
-
-    // for maping the alphabets
-    let map = {};
-
+    
+    // first map all the letters
+    let map={};
     for(let i=0; i<s.length; i++){
 
         if(!map[s[i]]){
             map[s[i]] = 1;
         } else {
-            map[s[i]]++;
+          ++map[s[i]];
         }
     }
 
-    // Now, reduce the count of the letters
+    // Return false if map[t[j]] doesn't exist and if length reduces less than zero
+
     for(let j=0; j<t.length; j++){
 
         if(!map[t[j]] || map[t[j]]<0){
             console.log(map);
             return false;
         }
-        --map[t[j]];
+
+        map[t[j]]--;
     }
+
     return true;
 }
 

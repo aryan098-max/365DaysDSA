@@ -137,7 +137,7 @@
 
 44. Group Anagram - Leet Code 49
 
-45. Stack & Queues - Intro
+45. Linked List - Intro
 
-46. Stack & Queues - Continue
+46. Linked List - Leet Code 707
 

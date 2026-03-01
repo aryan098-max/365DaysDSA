@@ -44,8 +44,8 @@
 42. Valid Anagram - Leet Code 242
 43. Isomorphic Strings - Leet Code 205
 44. Group Anagram - Lee Code 49
-45. Stack & Queues - Introduction
-46. Stack & Queues - Continue
+45. Linked List - Introduction
+46. Linked List - Leet Code 707
 
 
 
