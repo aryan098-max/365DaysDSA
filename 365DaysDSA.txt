@@ -45,7 +45,8 @@
 43. Isomorphic Strings - Leet Code 205
 44. Group Anagram - Lee Code 49
 45. Linked List - Introduction
-46. Linked List - Leet Code 707
+46. Linked List: Design Linked List- Leet Code 707
+47. Linked List: Adding Node to Linked List- Leet Code 707
 
 
 

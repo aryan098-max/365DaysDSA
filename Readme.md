@@ -4,6 +4,7 @@
 2. Day 2 - countNegative, findLargest
 3. Day 3 - secondLargest
 4. Day 4 - startPattern(****)
+
     * * * *
     * * * *
     * * * *
@@ -139,5 +140,8 @@
 
 45. Linked List - Intro
 
-46. Linked List - Leet Code 707
+46. Linked List: Design Linked List- Leet Code 707
+
+47. Linked List: Adding Node to Linked List- Leet Code 707
+
 
