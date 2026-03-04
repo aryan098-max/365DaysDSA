@@ -11,12 +11,35 @@ var MyLinkedList = function() {
     this.size = 0;
 };
 
+MyLinkedList.prototype.print = function() {
+    let result = [];
+    let curr = this.head;
+    while (curr) {
+        result.push(curr.val);
+        curr = curr.next;
+    }
+    console.log(result.join(" -> "));
+};
+
 /** 
  * @param {number} index
  * @return {number}
  */
 MyLinkedList.prototype.get = function(index) {
     
+    // index starting from 0 index 1; index>=size
+
+    if(index<0 || index>=this.size){
+        return -1;
+    } 
+
+    // currNode
+    let currNode = this.head;
+
+    for(let i=0; i<index; i++){
+        currNode = currNode.next;
+    }
+    return currNode.val;    
 };
 
 /** 
@@ -27,7 +50,7 @@ MyLinkedList.prototype.addAtHead = function(val) {
 
     // calling Node constructor function, this is the obj before the dot
     // Look at the example at practise3.js
-    let newNode = new Node();
+    let newNode = new Node(val);
     newNode.next = this.head;
     this.head = newNode;
     this.size++;
@@ -66,19 +89,18 @@ MyLinkedList.prototype.addAtTail = function(val) {
  */
 MyLinkedList.prototype.addAtIndex = function(index, val) {
 
-    let newNode = new Node(val);
+    if (index > this.size || index < 0) return; // Added bounds check
 
     if(index === 0){
-
         this.addAtHead(val);
         return;
 
     } else if(index === this.size){
-        
         this.addAtTail(val);
         return;
     } else {
 
+        let newNode = new Node(val);
         let currNode = this.head;
 
         // run a for loop to reach index-1
@@ -90,7 +112,7 @@ MyLinkedList.prototype.addAtIndex = function(index, val) {
         currNode.next = newNode;
 
     }
-    this.size++;
+    this.size++; 
 };
 
 /** 
@@ -98,15 +120,43 @@ MyLinkedList.prototype.addAtIndex = function(index, val) {
  * @return {void}
  */
 MyLinkedList.prototype.deleteAtIndex = function(index) {
-    
+
+    // first corner case
+    if(index<0 || index >= this.size){
+        return;
+    }
+
+    // second corner case, delete first index, head
+
+    if(index === 0){
+        this.head = this.head.next;
+    } else {
+
+        let currNode = this.head;
+
+        // run a loop till index-1 to reach the prev to prev index
+        for(let i=0; i<index-1; i++){
+
+            currNode = currNode.next;
+        }
+
+        currNode.next = currNode.next.next;
+    }
+    this.size--;
 };
 
 
 // Your MyLinkedList object will be instantiated and called as such:
 var obj = new MyLinkedList()
-var param_1 = obj.get(index)
-obj.addAtHead(val)
-obj.addAtTail(val)
-obj.addAtIndex(index,val)
-obj.deleteAtIndex(index)
+// var param_1 = obj.get(index);
+obj.addAtHead(2);
+obj.addAtHead(3);
+obj.addAtHead(4);
+obj.addAtHead(5);
+obj.addAtHead(6);
+obj.addAtTail(7);
+// obj.addAtIndex(4,8);
+// obj.deleteAtIndex(3);
+console.log(obj);
+obj.print();
  

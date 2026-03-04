@@ -63,9 +63,22 @@
 
 1. We are going to call MyLinkedList.prototype.addAtIndex(val) = function{}
 
-2. There are two edge cases 
-    1. index === 0
-    2. index === size
+2. There are three edge cases 
+    
+    1. It is out of bound check 
+
+        if(index<0 || index>size){
+            return;
+        }
+
+        Note: index>size ✅, index>=size ❌ because index === size means adding at tail
+    
+    2. index === 0
+    3. index === size (index=3, size=3 means adding at last)
+       
+       Q. How index = 3 is not invalid?
+       =  if there are 3 linked List, it starts from 0, 1, 2, therefore, index = 3 means
+          adding at last, therefore, when index === size it means adding at last
 
     1. if (index === 0) this.addAtHead(val), return; why this because this is pointing to curr obj
     2. if (index === size) this.addAtTail(val), return; also add return
