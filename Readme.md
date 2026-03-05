@@ -148,5 +148,7 @@
 
 49. Linked List: Middle of the Linked List - Leet Code 876
 
+50. Reverse Linked List: Leet Code 206
+
 
 

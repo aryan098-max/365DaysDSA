@@ -49,6 +49,7 @@
 47. Linked List: Adding Node to Linked List- Leet Code 707
 48. Linked List: Deleting Node in a Linked List: Leet Code 707
 49. Linked List: Middle of the Linked List - Leet Code 876
+50. Linked List: Reverse Linked List: Leet Code 206
 
 
 
