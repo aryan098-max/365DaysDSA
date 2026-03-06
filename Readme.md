@@ -150,5 +150,7 @@
 
 50. Reverse Linked List: Leet Code 206
 
+51. Linked List Cycle: Leet Code 141
+
 
 
