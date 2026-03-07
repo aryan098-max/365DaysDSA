@@ -33,13 +33,13 @@ MyLinkedList.prototype.get = function(index) {
         return -1;
     } 
 
-    // currNode
-    let currNode = this.head;
+    // curr
+    let curr = this.head;
 
     for(let i=0; i<index; i++){
-        currNode = currNode.next;
+        curr = curr.next;
     }
-    return currNode.val;    
+    return curr.val;    
 };
 
 /** 
@@ -69,14 +69,14 @@ MyLinkedList.prototype.addAtTail = function(val) {
 
         this.head = newNode;
     } else{
-        let currNode = this.head;
+        let curr = this.head;
         // traverse the list using while loop
-        while(currNode.next !== null){
-            currNode = currNode.next;
+        while(curr.next !== null){
+            curr = curr.next;
         }
         
         // after finding the end of the node & no need to do newNode.next = null
-        currNode.next = newNode;
+        curr.next = newNode;
     }
     // Finally, increase the size;
     this.size++;
@@ -101,15 +101,15 @@ MyLinkedList.prototype.addAtIndex = function(index, val) {
     } else {
 
         let newNode = new Node(val);
-        let currNode = this.head;
+        let curr = this.head;
 
         // run a for loop to reach index-1
         for(let i=0; i<index-1; i++){
-            currNode = currNode.next;
+            curr = curr.next;
         }
 
-        newNode.next = currNode.next;
-        currNode.next = newNode;
+        newNode.next = curr.next;
+        curr.next = newNode;
 
     }
     this.size++; 
@@ -132,15 +132,15 @@ MyLinkedList.prototype.deleteAtIndex = function(index) {
         this.head = this.head.next;
     } else {
 
-        let currNode = this.head;
+        let curr = this.head;
 
         // run a loop till index-1 to reach the prev to prev index
         for(let i=0; i<index-1; i++){
 
-            currNode = currNode.next;
+            curr = curr.next;
         }
 
-        currNode.next = currNode.next.next;
+        curr.next = curr.next.next;
     }
     this.size--;
 };
