@@ -148,9 +148,11 @@
 
 49. Linked List: Middle of the Linked List - Leet Code 876
 
-50. Reverse Linked List: Leet Code 206
+50. Linked List: Reverse Linked List: Leet Code 206
 
-51. Linked List Cycle: Leet Code 141
+51. Linked List: Linked List Cycle: Leet Code 141
+
+52. Linked List: Palindrome Linked List: Leet Code 234
 
 
 
