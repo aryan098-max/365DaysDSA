@@ -156,6 +156,8 @@
 
 53. Linked List: Intersection of Two Linked Lists
 
+54. Linked List: Remoe Linked List Elements
+
 
 
 
