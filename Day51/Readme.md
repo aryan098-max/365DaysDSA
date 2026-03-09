@@ -43,3 +43,52 @@ Explanation: There is no cycle in the linked list.
 2. Spacve Complexity
 - Because we are using an extra space for storing the set
 - O(n) 
+
+======================================================================================
+
+# Approach 2 - Floyd's Algorithm
+
+- Floyd's Alog suggests that if there is a cycle in the list, eventually two ponter 
+fast and slow will meet each other and if they meet return true; cycle exists.
+
+- This problem is solved with the help of fast and slow pointer approach
+
+# Problem Pattern
+
+1. Therefore, we are going to use slow and fast pointer approach as we did in the middle
+of th lined list problem 
+
+2. Introduce two variables slow and fast and this time we are not going to start them from
+   the same position because we don't want them to be equal at the first place itself.
+
+   For example, 
+
+   slow = head
+   fast = head.next
+
+   // We won't start them from the same position because we the while loop will fail immediately.
+
+3. We will run a while() loop now, which will run until slow ! fast. while(slow !== fast). As we are
+   running this loop, we will keep moving the slow and fast pointer and check if fast has become null
+
+  For example, 
+
+  // We also need to check if fast has become null or not and we will use || condition this time because
+     we want the condition to pass anyhow
+
+   if(fast === null || fast.next === null ) return false
+
+   // keep increasing fast and slow inside the loop
+
+4. Finally, after the loop breaks return false because: slow === fast eventaully
+
+5. Make sure to add a corner case of: if(head === null), which means that the list is empty
+
+# Complexity
+
+1. Time Complexity
+- O(n) - Linear 
+
+2. Spacve Complexity
+- Floyd's algo we are not using extra space; therefore, O(1)
+- O(1) - Constant 

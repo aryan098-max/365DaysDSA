@@ -3,6 +3,8 @@ var middleNode = function(head) {
     let slow = head;
     let fast = head;
 
+    // I want the condition to fail when fast === null; therefore, &&
+    // If I use || the loop will still run which I don't want
     while(fast !== null && fast.next !== null){
 
         slow = slow.next;
