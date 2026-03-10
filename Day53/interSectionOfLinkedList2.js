@@ -6,6 +6,11 @@ function ListNode(val, next) {
 
 var getIntersectionNode = function(headA, headB) {
 
+    // constraint
+    if(headA === null || headB === null){
+        return null;
+    }
+
     let pA = headA;
     let pB = headB;
 
