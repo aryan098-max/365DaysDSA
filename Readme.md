@@ -154,8 +154,10 @@
 
 52. Linked List: Palindrome Linked List: Leet Code 234
 
-53. Linked List: Intersection of Two Linked Lists
+53. Linked List: Intersection of Two Linked Lists: Leet Code 160
 
-54. Linked List: Remoe Linked List Elements
+54. Linked List: Remove Linked List Elements: Leet Code 203
+
+55. Lined List: Remove Nth Node from the Linked List: Leet Code 19
 
 

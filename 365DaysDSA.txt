@@ -52,8 +52,10 @@
 50. Linked List: Reverse Linked List: Leet Code 206
 51. Linked List: Linked List Cycle: Leet Code 141
 52. Linked List: Palindrome Linked List: Leet Code 234
-53. Linked List: Intersection of Two Linked Lists
-54. Linked List: Remove Linked List Elements
+53. Linked List: Intersection of Two Linked Lists: Leet code 160
+54. Linked List: Remove Linked List Elements: Leet Code 203
+55. Lined List: Remove Nth Node from the Linked List: Leet Code 19
+
 
 
 

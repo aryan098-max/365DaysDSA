@@ -6,24 +6,27 @@ function ListNode(val, next) {
 
 var getIntersectionNode = function(headA, headB) {
 
-    let skipA = headA;
-    let skipB = headB;
-    let setNodes = new Set();
+    let pA = headA;
+    let pB = headB;
 
-    while(skipA !== null){
-        setNodes.add(skipA);
-        skipA = skipA.next;
-    }
+    // unless until pA === pB
 
-    while(skipB !== null){
+    while(pA !== pB){
 
-        if(setNodes.has(skipB)){
-            return skipB;
+        if(pA === null){
+            pA = headB;
+        } else {
+            pA = pA.next;
         }
-        skipB = skipB.next;
-    }
 
-    return null;
+        if(pB === null){
+            pB = headA;
+        } else {
+            pB = pB.next;
+        }
+    }
+    
+    return pA;
 };
 
 // headA
