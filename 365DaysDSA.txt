@@ -56,3 +56,5 @@
 54. Linked List: Remove Linked List Elements: Leet Code 203
 55. Lined List: Remove Nth Node from the Linked List: Leet Code 19
 56. Linked List: Remove Duplicates from Sorted List: Leet Code 83
+57. Array: Two Sum, Leet Code 1
+    Linked List: Odd Even Linked List: Leet Code 328

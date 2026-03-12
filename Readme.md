@@ -162,4 +162,8 @@
 
 56. Linked List: Remove Duplicates from Sorted List: Leet Code 83
 
+57. Array: Two Sum, Leet Code 1
+
+    Linked List: Odd Even Linked List: Leet Code 328
+
 
