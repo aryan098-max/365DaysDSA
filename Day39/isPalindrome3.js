@@ -1,6 +1,6 @@
 function isPalindrome(s){
 
-      s = s.toLowerCase();
+    s = s.toLowerCase();
     let i =0;
     let j = s.length-1;
 

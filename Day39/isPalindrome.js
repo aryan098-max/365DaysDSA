@@ -12,18 +12,20 @@ function isPalindrome(s){
         }
     }
 
-    let reversedString = filteredString.split("");
+    let reversedString = filteredString.split(",");
     let n = reversedString.length;
     let halfLen = Math.floor(reversedString.length/2);
     
     for(let j=0; j<halfLen; j++){
 
+        // swapping the string
         let temp = reversedString[j];
         reversedString[j] = reversedString[n-1-j];
         reversedString[n-1-j] = temp;
     }
 
     reversedString = reversedString.join("");
+    console.log(filteredString,reversedString);
     return reversedString === filteredString ;
 
 }

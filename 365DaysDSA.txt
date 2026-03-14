@@ -59,3 +59,4 @@
 57. Array: Two Sum, Leet Code 1
     Linked List: Odd Even Linked List: Leet Code 328
 58. LinkedList: Add Two Numbers: Leet Code 2
+59. LinkedList: Merge Two Sorted Lists: Leet Code 21
