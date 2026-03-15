@@ -14,8 +14,7 @@ var removeElements = function(head, val) {
 
     let prev = sentinel;
 
- // while moving ppinter two steps ahead check for both prev and prev.next !== null
-
+ // while moving pointer two steps ahead check for both prev and prev.next !== null
     while(prev !== null && prev.next !== null){
 
         if(prev.next.val === val){
@@ -37,3 +36,4 @@ const head = new ListNode(1, node2);
 // calling the function
 const output = removeElements(head, 2);
 console.log(output);
+

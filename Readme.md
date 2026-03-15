@@ -170,4 +170,7 @@
 
 59. LinkedList: Merge Two Sorted Lists: Leet Code 21
 
+60. LinkedList: Rotate List: Leet Code 41
+
+
 

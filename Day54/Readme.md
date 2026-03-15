@@ -43,6 +43,27 @@ Q. What is a sentinel node?
 9. Finally, we have to return: sentinel.next - ? why? because what if head has the val itself which we 
    want to remove.
 
+10. Why are we returning sentinel.next? 
+
+   The reason we are returning sentinel.next is because if there is a value in the Linked List that we want
+   to remove is at first 
+
+   1->2->3->4->5
+
+   Let's suppose that I have to remove 1 -> Currently, prev and sentinel is pointing to the same box which
+   has two value -> val and next 
+
+   -> sentinel.next = head, therefore, prev.next = head (because it is the same box for both)
+
+   -> Now, when we move prev.next = prev.next.next - The memory address which is being changed right now
+     is sentinel.next as well. Therefore, if we delete from the first we have to return sentinel.next
+
+   -> When we don't have to remove the first prev keeps moving forward and at that time sentinel.next is 
+      pointing at head only.
+   
+   # Note: Both sentinel and prev is pointing to the same box -> therefore, we have to return sentinel.next
+     at last we have to return sentine.next
+
 # Few dobuts clear through this question
 
 1. First, when we want to make changes in the LinkedList itself we change the next pointer of the curr
