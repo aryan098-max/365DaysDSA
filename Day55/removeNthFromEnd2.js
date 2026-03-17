@@ -6,33 +6,34 @@
  }
 
 
-var removeElements = function(head, val) {
+var removeElements = function(head, n) {
     
     // creating a sentinel node
     let sentinel = new ListNode(0);
     sentinel.next = head;
+    let first = sentinel;
+    let second = sentinel;
 
-    let length = 0;
-    while(head !== null){
-        head = head.next;
-        length++;
+    // Introduce two pointer first and second, first from sentinel & second from n  
+
+    // Move first to the n
+    for(let i=0; i<n; i++){
+
+        first = first.next;
     }
 
-    // Introduce prevPos and prev
-    let prevPos = length - n;
-    let prev = sentinel;
+    // Now, after first pointer reaches to n start moving second as well
+    // Dry run the code to know why only first.next !== null
+    while(first.next !== null){
 
-    // Run a loop to move prev to the prevPos
-    for(let i=0; i<prevPos; i++){
-        // move prev to prevPos
-        prev = prev.next;
+        first = first.next;
+        second = second.next;
     }
-    // finally remove the link to the Nth node
-    prev.next = prev.next.next;
 
-    // return sentinel.next to cover the head being Nth index
+    // second will stop at the prev position this is how this code works
+    second.next = second.next.next;
+
     return sentinel.next;
-
 }
 
 // Passing nodes

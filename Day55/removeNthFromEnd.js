@@ -6,7 +6,7 @@
  }
 
 
-var removeElements = function(head, val) {
+var removeElements = function(head, n) {
     
     // creating a sentinel node
     let sentinel = new ListNode(0);

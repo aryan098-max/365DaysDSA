@@ -61,3 +61,5 @@
 58. LinkedList: Add Two Numbers: Leet Code 2
 59. LinkedList: Merge Two Sorted Lists: Leet Code 21
 60. LinkedList: Rotate List: Leet Code 41
+61. Linked List: Swap Nodes in Pair: Leet Code 22
+62. Intro Stack & Queues

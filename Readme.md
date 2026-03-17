@@ -172,5 +172,10 @@
 
 60. LinkedList: Rotate List: Leet Code 41
 
+61. Linked List: Swap nodes in Pair: Leet Code 22
+
+62. Intro Stack & Queues
+
+
 
 

@@ -58,7 +58,32 @@ Output: [1,2,3,5]
 
 # Question - Remove the Nth Node 
 
-# Approach 2 - One pass solution 
+# Approach 2 - One pass solution - Using First and Second pointer starting from the sentinel
 
+# Problem Pattern
+
+- The entire concept of this problem is that we introduce two pointers first and second and move 
+  first until n and later move second until first.next reaches null
+
+1. First and Second pointer starts from sentinel node
+
+2. Move First pointer intially till n using for loop 
+
+3. Now, run the loop until first.next !== null (dry run the code to know why first.next !== null only )
+   (why not first !== null)
+
+4. The trick is that when first reaches null second reaches to prev position. (dry run the code for diff example)
+
+5. Finally, return sentinel.next
+
+# Complexity
+
+1. Time Complexity
+= O(n) + O(n) 
+= 2O(n)
+= O(n)
+
+2. Space Complexity
+= O(1)
 
 
