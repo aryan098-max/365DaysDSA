@@ -21,7 +21,7 @@ function validAanagram(s,t){
     for(let j=0; j<t.length; j++){
 
         if(!map[t[j]] || map[t[j]]<0){
-            console.log(map);
+            // console.log(map);
             return false;
         }
         --map[t[j]];

@@ -20,6 +20,13 @@ Output: "35427"
 Explanation: "35427" is already an odd number.
 
 # Problem Pattern
+
+1. Start checking the each string from last; therefore, use n = length-1
+2. Use, for or while loop and use - Number(n[i])%2 !== 0
+3. Keep reducing the string using slice and assign it to a new -> num
+4. Finally, for entire string even return "" (at last)
+
+
 - Start the loop from i = nums.length-1, we will start from the last string.
 
 - We divide the last num, if(Number(num[i]) % 2 !== 0) return num because if dividing the last string

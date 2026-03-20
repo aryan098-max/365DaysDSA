@@ -53,6 +53,7 @@ Output: false
 1. First create a map for mapping all the letters from the str
 2. Afterwards, reduce the count of the letters within the map
 3. Use two loops for this entire process
+4. Always check for base case here (s.length !== t.length)
 
 - There are few conditions for breaking the loop
 4. First Condition, if (!map[t[i]]), if the letter doesn't exist, how can we reduce it break return false
