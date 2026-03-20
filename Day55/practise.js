@@ -25,4 +25,4 @@ var lengthOfLastWord = function(s) {
 
 const s = "a";
 const output = lengthOfLastWord(s);
-console.log(output);
+console.log(output)

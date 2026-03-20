@@ -18,13 +18,13 @@ Explanation: There is no common prefix among the input strings.
    of each string
 
 3. There are a total of 2 loops first is the while loop where a ch variable is introduced
-   storing ch = strs[0].[x], eventually value of x is increased for comparing with the rest
+   storing ch = strs[0] [x], eventually value of x is increased for comparing with the rest
    of the characters
 
 4. We are going to compare the each char of all the string and keep moving forward
   unless the length of the first string is exhausted in the while loop 
 
-5. Next, inside the for loop, inside the if condition if (str[i].[x] !== str[0][x] || x === strs[0].length
+5. Next, inside the for loop, inside the if condition if (str[i] [x] !== str[0][x] || x === strs[0].length)
 
 6. Once, condition fails, use - substring method with the first string = strs[0].substring(0,x)
    
