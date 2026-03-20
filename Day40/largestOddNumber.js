@@ -1,9 +1,10 @@
 function largestOddNumber(num){
 
+    let n = num.length-1;
 
-    for(let i=0; i<num.length; i++){
+    for(let i=n; i>=0; i--){
 
-        if(Number(num[i])%2 !==0){
+        if(Number(num[i])%2 !== 0){
             return num;  
         } else {
             num = num.slice(0,i);
@@ -12,12 +13,7 @@ function largestOddNumber(num){
     
     // Entire num is even
     // return ""
-    if(num%2 === 0){
-        return num;
-    } 
-
-
-
+    return "";
 
 }
 
