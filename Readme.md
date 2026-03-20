@@ -178,7 +178,10 @@
 
 63. Playing with Stack & Queues
 
-64. Implement Stack Using Queues: Leet Code 225
+64. Implement Stack Using Two Queues: Leet Code 225
+
+65. Implement Stack Using One Queue: Leet Code 225
+
 
 
 
