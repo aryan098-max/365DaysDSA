@@ -29,7 +29,7 @@ Mapping 'g' to 'd'.
    character is mapped to single character or not.
 
 4. Later, we will run a loop till s.length to create mapping for both StoT & TtoS. 
-5. Now, for checking the condition we are going to first check whether, if(!mapStoT[s[i]] && !mapTtoS[t[i]]) 
+5. Now, for checking the condition we are going to first check whether, if(!mapStoT[s[i]] && !mapTtoS[t[i]]).
    exist or not.
 6. When to stop the condition, stopping the condition is tricky, we are going to stop the condition
    if two same char are mapping to different condition. 
@@ -55,10 +55,16 @@ Mapping 'g' to 'd'.
    a !== r (true)
    return false; 
 
-   Therefore, they are not isomorphic
+   Therefore, they are not isomorphic, they need to be equal for being isomorphic, same char must be mapped
+   with same char
 
 8. So, what we are doing here is on the second check is to check whether the same char is being mapped 
-   to diff char or not, if yes return false
+   to same char or not, if no return false
+
+# Note: Even though mapping is created, we will still check for the rest of the char using value of i for
+#  accessing different char at each index
+
+9. Finally, at last we are returning true.
 
 # Complexity
 
