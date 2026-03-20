@@ -28,7 +28,7 @@ Output = maxVowel + maxConsonant = 6
 # Complexity
 
 1. Time Complexity
--  O(n) -
+-  O(n) - Linear
 
 2. Space Complexity
 - O(1) - because the size is fixed (26 small letters)
