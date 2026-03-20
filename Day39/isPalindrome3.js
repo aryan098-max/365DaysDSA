@@ -6,6 +6,7 @@ function isPalindrome(s){
 
     while(i<=j){
 
+        // if non-alphanumeric character is encountered move i and j
         if(!s[i].match(/[a-z0-9]/i)){
             ++i;
         } else if(!s[j].match(/[a-z0-9]/i)){
