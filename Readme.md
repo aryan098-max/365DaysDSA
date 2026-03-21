@@ -182,6 +182,9 @@
 
 65. Implement Stack Using One Queue: Leet Code 225
 
+66. Implement Queue Using Stack: Leet Code 232
+
+
 
 
 
