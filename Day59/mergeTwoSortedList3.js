@@ -7,30 +7,31 @@ function ListNode(val, next){
 var mergeTwoLists = function(l1, l2) {
 
     // base case l1 or l2 null
-    if(!l1) return l2;
-    if(!l2) return l1;
+    // if(!l1) return l2;
+    // if(!l2) return l1;
 
-    // Now, finding the starting point
-    let curr = null;
+    // After, introducing sentinel node no need to check for !l1 and !l2
+    let sentinel = new ListNode();
+    let curr = sentinel;
 
-    if(l1.val < l2.val){
+    // No need to find the starting point now we got the starting point now
+    // if(l1.val < l2.val){
 
-        curr = l1;
-        l1 = l1.next; 
-    } else {
-        curr = l2;
-        l2 = l2.next;
-    }
-
-    // Now, I need to make sure that I don't lost my head
-    // curr is pointing to the starting of the list
-    let start = curr;
+    //     curr = l1;
+    //     l1 = l1.next; 
+    // } else {
+    //     curr = l2;
+    //     l2 = l2.next;
+    // }
 
     // Now, navigating through the linked list to sort it
     // Run the loop until one of the list is exhausted
     while(l1 !== null && l2 !== null){
 
         if(l1.val < l2.val){
+            // In this line we are pointing the sentinel.next to starting of the node
+            // curr and sentinel is attached to the same box, so curr.next = l1 means
+            // sentinel.next is also pointing to l1;
             curr.next = l1;
             l1 = l1.next;
         } else {
@@ -52,7 +53,7 @@ var mergeTwoLists = function(l1, l2) {
     }
     
     // As start is pointing to head now
-    return start;
+    return sentinel.next;
 };
 
 const l1 = {val: 1, next: { val: 2, next: { val: 4, next: null}}};

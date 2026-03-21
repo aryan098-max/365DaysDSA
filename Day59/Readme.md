@@ -56,11 +56,29 @@ Q. What is non-decreasing order?
 
 # Problem Pattern
 
+# Base checking if l1 and l2 is null if l1 null return l2 and vicevers
+- If you start with the dummy node no need to write that condition as well
+- No need to do if(!l1) return l2; if(!l2) return l1;
+
+
+
+
 # 1st Phase
 1. Introduce a variable curr = null, at the start of the journey
 2. First, find the start like from where do the list will start l1 or l2
 3. After finding, the point from where you will start the list create
    a variable let start = curr (so that later you can return it)
+
+# Alternative approach for 1st Phase instead of finding the starting point
+
+1. Create dummyNode which is null 
+2. curr variable should be assigned to the dummyNode
+3. -> In this line we are pointing the sentinel.next to starting of the node
+   -> curr and sentinel is attached to the same box, so curr.next = l1 means
+   -> sentinel.next is also pointing to l1;
+
+
+
 
 # 2nd Phase
 4. We will keep moving curr, l1 and l2 therefore, we need start variable
