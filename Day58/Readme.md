@@ -71,7 +71,8 @@ Explanation: 342 + 465 = 807.
 # Complexity
 
 1. Time Complexity
-- O(n) - Linear
+- O(m + n) - Linear
 
 2. Space Complexity
-- O(1) - Constant
+- We are creating a new linkedlist
+- O(m + n)
