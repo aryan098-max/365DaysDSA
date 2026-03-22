@@ -112,7 +112,7 @@
 
 31. Insertion Sort
 
-32. Merge Sort - Leet Code 912
+32. Sort Array - Leet Code 912
 
 33. Length of Last Word - Leet Code 58
 
@@ -183,6 +183,9 @@
 65. Implement Stack Using One Queue: Leet Code 225
 
 66. Implement Queue Using Stack: Leet Code 232
+
+67. Stack & Queues: Valid Parentheses: Leet Code 20
+
 
 
 

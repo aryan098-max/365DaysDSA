@@ -20,7 +20,7 @@ function merge(left, right){
 
 }
 
-function mergeSort(nums){
+function sortArray(nums){
 
     // base case
     if(nums.length <=1) return nums;
@@ -34,5 +34,5 @@ function mergeSort(nums){
 }
 
 const nums = [5,2,3,1];
-const output = mergeSort(nums);
+const output = sortArray(nums);
 console.log(output);
