@@ -28,9 +28,11 @@ function groupAnagrams(strs) {
             key = key + String.fromCharCode(k+97) + freqArr[k];
         }
 
+        // key of group of anagram: a1b0c0d0e1...t1 - this is the key and words
+
         // Note: anagrams will have same key: [a1,0,0,0,e1,.....]
         // Finally, creating a map, assinging the word back to the key
-
+        // array of same words grouped under same key
         if(!map[key]){
             map[key] = [word];
         } else{

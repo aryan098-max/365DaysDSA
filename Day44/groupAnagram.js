@@ -5,12 +5,13 @@ function groupAnagrams(strs) {
     // creating sorted list
     for(let i=0; i<strs.length; i++){
 
-        // sorting each value
+        // sorting each value to group them under the same key
         let sortedStr = strs[i].split("").sort().join("");
 
         // checking each value is present as a key or not
         if(!map[sortedStr]){
             // assigning the current key as one of the array values
+            // [ ] double brackets assigns an array
             map[sortedStr] = [strs[i]];
         } else{
             // after checking value is anagram (key exists) push it on the
@@ -18,6 +19,7 @@ function groupAnagrams(strs) {
             map[sortedStr].push(strs[i]);
         }
     }
+    console.log(map);
     console.log(Object.values(map));
     // Finally return all the values using Object.values(map)
     // We don't need spread operator because Object.values() returns an array

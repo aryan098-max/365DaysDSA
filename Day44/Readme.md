@@ -17,10 +17,18 @@ There is no string in strs that can be rearranged to form "bat".
 The strings "nat" and "tan" are anagrams as they can be rearranged to form each other.
 The strings "ate", "eat", and "tea" are anagrams as they can be rearranged to form each other.
 
+
+# Approach
+
+1. Create a map and iterate through each word and create a unique key for group of words
+2. That unique key is created inside the loop using: let sortedWord = strs[i].split("").sort().join()
+
+
+
 # Problem Pattern
 
 1. We are going to solve this problem using map, create a map of each word sort it and push it
-   inside the map, do same for the coming str
+   inside the map, creating an array of similar char
 
 2. Create a for loop and sort each str and check if it exists as a key or not. 
 3. If the key alredy exists, it means it is an anagram of the existing key push it inside the
