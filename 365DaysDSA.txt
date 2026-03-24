@@ -56,8 +56,8 @@
 54. Linked List: Remove Linked List Elements: Leet Code 203
 55. Lined List: Remove Nth Node from the Linked List: Leet Code 19
 56. Linked List: Remove Duplicates from Sorted List: Leet Code 83
-57. Array: Two Sum, Leet Code 1
-    Linked List: Odd Even Linked List: Leet Code 328
+57. - Array: Two Sum, Leet Code 1
+    - Linked List: Odd Even Linked List: Leet Code 328
 58. LinkedList: Add Two Numbers: Leet Code 2
 59. LinkedList: Merge Two Sorted Lists: Leet Code 21
 60. LinkedList: Rotate List: Leet Code 41
@@ -69,5 +69,6 @@
 66. Implement Queue Using Stack: Leet Code 232
 67. Stack & Queues: Valid Parentheses: Leet Code 20
 68. Stack & Queues: Min Stack: Leet Code 155
+69. Stack & Queues: Remove Outermost Parentheses: Leet Code 1021
 
 

@@ -162,9 +162,9 @@
 
 56. Linked List: Remove Duplicates from Sorted List: Leet Code 83
 
-57. Array: Two Sum, Leet Code 1
+57. - Array: Two Sum, Leet Code 1
 
-    Linked List: Odd Even Linked List: Leet Code 328
+    - Linked List: Odd Even Linked List: Leet Code 328
 
 58. Linked List: Add Two Numbers: Leet Code 2
 
@@ -187,6 +187,9 @@
 67. Stack & Queues: Valid Parentheses: Leet Code 20
 
 68. Stack & Queues: Min Stack: Leet Code 155
+
+69. Stack & Queues: Remove Outermost Parentheses: Leet Code 1021
+
 
 
 
