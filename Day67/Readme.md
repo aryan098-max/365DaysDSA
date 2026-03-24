@@ -65,3 +65,13 @@ inside the stack
     - Our, entire goal is to emptied the stack
 
 6. Check the length of the stack - return stack.length === 0, which returns true 
+
+
+# Complexity
+
+1. Time Complexity
+- O(n)
+
+2. Space Complexity
+- stack is staking a space of (n)
+- O(n)
