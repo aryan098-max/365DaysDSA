@@ -4,8 +4,6 @@ function ListNode(val, next){
     this.next = (next === undefined ? null: next);
 }
 
-
-
 var deleteDuplicates = function(head) {
 
     let curr = head;

@@ -41,3 +41,8 @@ Output: [1,2]
 
 2. Space Complexity
 - O(1)
+
+
+=======================================================================================
+
+# Second Appraoch - Using set - Figure it out yourself
