@@ -37,7 +37,9 @@ Output: Intersected at '8'
 
 ======================================================================================
 
-# Approach 2 - Optional two pointer solution
+# Approach 2 - Optional two pointer solution - Two pointers travel the same distance 
+
+# Note: If there is not intersection, both will hit null at the same time.
 
 # Pattern
 
