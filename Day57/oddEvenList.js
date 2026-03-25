@@ -11,6 +11,7 @@ var oddEvenList = function(head) {
 
     // moving two steps forward
     while(odd.next !== null && even.next !==null){
+    // while(even !== null && even.next !== null) // odd is always behind even
 
         // moving two steps ahead
         odd.next = odd.next.next;

@@ -16,11 +16,13 @@ Output: [1,3,5,2,4]
 
 - In this question, we need to group odd and even indices together
 
-1. First, we need to check for the constraint what if head is null or head.next is 
-   null.
+# No matter what, odd node always points to null
 
-2. As we need to move odd and even and store the position of the second even we wil
-   store inside a variable called evenStart.
+1. First, we need to check for the constraint what if head is null or head.next is 
+   null. Q. why head.next === null ? what if we have one node only. 
+
+2. As we need to move odd and even, we need to store the position of the second even 
+  we will store inside a variable called evenStart.
 
 3. We will run the loop until (odd.next !== null && even.next !== null) because we 
    are moving the pointer two steps ahead.
@@ -28,11 +30,10 @@ Output: [1,3,5,2,4]
 4. One more thing don't forget to move the actual pointer changing the odd.next is 
    not enough we need to traverse the actual pointer as well. 
 
-5. Finally, we need to make sure that the last odd indices node is pointing to the
-   start of even indices node. For that we introduced a variable called evenStart
+5. Finally, we need to make sure that the last odd index node is pointing to the
+   start of even index node. For that we introduced a variable called evenStart
 
    Now, odd.next = evenStart
-
 
 # Complexity
 
