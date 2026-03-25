@@ -54,6 +54,36 @@ Explanation: ((2 + 1) * 3) = 9
 - O(n)
 
 
+================================================================================
+
+# Approach using map to check for whether operands exist or not  
+
+
+ 1. I am creating an entire map with operators and assigning a function which performs
+    an addition
+
+ 2. With this approach I don't have to use eval(`${a} ${tokens[i]} ${b}`), 
+    this is used to call the function with the mathching operator: 
+    
+    - map[tokens[i]](a,b); 
+    
+
+ let map = {
+    "+" : (a,b) => (a + b),
+    "-" : (a,b) => (a - b),
+    "*" : (a,b) => (a * b),
+    "/" : (a,b) => (a / b),    
+ }
+
+  // It is a function call - map[tokens[i]] - let's suppose that "+" exist
+  // so, it will evaluate to : a function call with (a,b) 
+  let result = map[tokens[i]](a,b); 
+
+
+
+
+
+
 
 
 
