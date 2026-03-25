@@ -1,11 +1,30 @@
-let arr1 = [1,2,3,4];
-let arr2 = [];
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @param {number} val
+ * @return {ListNode}
+ */
+var removeElements = function(head, val) {
 
-while(arr1.length){
+    let sentinel = new ListNode();
+    sentinel.next = head;
+    let prev = sentinel;
 
- arr2.push(arr1.pop());
+    while(prev !== null && prev.next !== null){
 
-}
-
-
-console.log(arr2);
+        if(prev.next.val === val){
+            prev.next = prev.next.next;
+        } else {
+            // put this inside the else because otherwise it will skip elements
+            prev = prev.next;
+        }
+    }
+    
+    return sentinel.next;
+};
