@@ -42,6 +42,11 @@ Explanation: 342 + 465 = 807.
     carry = Math.floor(sum/10);
     digit = sum % 10;
 
+- while (l1 || l2 || carry) - l1 can be 0 or l2 can be 0 or carry can be zero; therefore, we must 
+  check for all. If only one value exists loop will run
+
+- Therefore, we must check whether is valid each time before using it because it might be exhausted
+
 2. Initially, introduce a sentinel node (dummy node) so that it will point to newNode, also
    introduce dummyHead (setinelHead) because dummy will keep moving forward to point to newNode
    each time.
