@@ -190,7 +190,10 @@
 
 69. Stack & Queues: Remove Outermost Parentheses: Leet Code 1021
 
-70. Stack & Queues: Evalaute Reverse Polish Notation: Leet Code 150
+70. Stack & Queues: Evalaute Reverse Polish Notation: Leet Code 150'
+
+71. Stack & Queues: Next Greater Element: Leet Code 496
+
 
 
 
