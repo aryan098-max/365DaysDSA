@@ -194,6 +194,7 @@
 
 71. Stack & Queues: Next Greater Element: Leet Code 496
 
+72. Stack & Queues: Daily Temperatures: Leet Code 739
 
 
 
