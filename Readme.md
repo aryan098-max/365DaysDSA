@@ -196,6 +196,10 @@
 
 72. Stack & Queues: Daily Temperatures: Leet Code 739
 
+73. Staack & Queues: Next Greater Element II: Leet Code 503
+
+74. Stack & Queues: Rotting Oranges: Leet Code Leet Code 994
+
 
 
 
