@@ -73,6 +73,7 @@
 70. Stack & Queues: Evalaute Reverse Polish Notation: Leet Code 150
 71. Stack & Queues: Next Greater Element: Leet Code 496
 72. Stack & Queues: Daily Temperatures: Leet Code 739
-
-
+73. Staack & Queues: Next Greater Element II: Leet Code 503
+74. Stack & Queues: Rotting Oranges: Leet Code Leet Code 994
+75. Binary Search Algorithm: Square Root of X: Leet Code 69
 

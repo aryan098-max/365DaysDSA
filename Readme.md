@@ -200,6 +200,9 @@
 
 74. Stack & Queues: Rotting Oranges: Leet Code Leet Code 994
 
+75. Binary Search Algorithm: Square Root of X: Leet Code 69
+
+
 
 
 
