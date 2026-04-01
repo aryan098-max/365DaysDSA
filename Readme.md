@@ -202,7 +202,10 @@
 
 75. Binary Search Algorithm: Square Root of X: Leet Code 69
 
-76. Binary Search Algorithm: Guess Number Higher or Lowe: Leet Code 374
+76. Binary Search Algorithm: Guess Number Higher or Lower: Leet Code 374
+
+77. Binary Search Algorithm: Search in Rotate Array: Leet Code 33
+
 
 
 
