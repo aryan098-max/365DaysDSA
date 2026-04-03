@@ -10,13 +10,14 @@ var findPeakElement = function(nums) {
     let left = 0;
     let right = nums.length - 1;
 
-    while(left < right){
+    // we want left, right, and middle all point to the same index
+    while(left <= right){
 
         let middle = Math.floor((left + right)/2);
 
-        // if(left === right && right === middle){
-        //     return middle;
-        // }
+        if(left === right && right === middle){
+            return middle;
+        }
 
         if(nums[middle] > nums[middle + 1] && nums[middle] > nums[middle-1]){
             return middle;
@@ -29,5 +30,8 @@ var findPeakElement = function(nums) {
             right = middle;
         }
     }
-    return right;
 };
+
+const nums = [1,2,3,4];
+const output = findPeakElement(nums);
+console.log(output);

@@ -43,7 +43,7 @@ Explanation: The square root of 4 is 2, so we return
 # Complexity
 
 1. Time Complexity
-- O(n)
+- O(log n)
 
 2. Space Complexity
 - O(1)

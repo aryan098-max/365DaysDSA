@@ -50,7 +50,7 @@ Then 4 is the first bad version.
 # Complexity
 
 1. Time Complexity
-- O(n)
+- O(log n)
 
 2. Space Complexity
 - O(1)
