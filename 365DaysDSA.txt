@@ -80,6 +80,7 @@
 77. Binary Search Algorithm: Search in Rotate Array: Leet Code 33
 78. Binary Search Algorithm: First Bad Version: Leet Code 278
 79. Binary Search Alogirthm: Find Peak Element: Leet Code 162
+80. Binary Search Algorithm: Find Minimum in Rotated Sorted Array: Leet Code 153
 
 
 
