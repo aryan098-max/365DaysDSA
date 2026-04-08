@@ -19,4 +19,4 @@
 - O(n) - Linear
 
 # Space Complexity
-- O(1) - Linear
+- O(n) - Linear
