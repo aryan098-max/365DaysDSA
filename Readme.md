@@ -214,11 +214,11 @@
 
 81. Revision : Sort Array: Leet Code 912
 
-82. Revision
+82. Revision : Length of Last Word: Leet Code 58
 
-83. Revision
+83. Revision : Split a String in Balanced Strings - Leet Code 1221
 
-84. Revision
+84. Revision : Palindrome Check - Leet Code 125
 
 85. Revision
 
