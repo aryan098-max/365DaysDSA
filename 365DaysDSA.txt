@@ -82,11 +82,12 @@
 79. Binary Search Alogirthm: Find Peak Element: Leet Code 162
 80. Binary Search Algorithm: Find Minimum in Rotated Sorted Array: Leet Code 153
 81. Revision : Sort Array: Leet Code 912
-83. Revision
-84. Revision
-85. Revision
-86. Revision
-87. Revision
-88. Revision
-89. Revision 
+82. Revision : Length of Last Word: Leet Code 58
+83. Revision : Split a String in Balanced Strings - Leet Code 1221
+84. Revision : Palindrome Check - Leet Code 125
+85. Revision : Largest Odd Number in a String: Leet Code 1912
+86. Revision :
+87. Revision :
+88. Revision :
+89. Revision :
 

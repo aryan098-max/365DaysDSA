@@ -8,7 +8,6 @@ function largestOddNumber(num){
             // Initially, n is reduced
             return num.substring(0,n+1);
         }
-
         --n;
     }
 
@@ -16,6 +15,6 @@ function largestOddNumber(num){
     return "";
 }
 
-const num = "31";
+const num = "100";
 const output = largestOddNumber(num);
 console.log(output);
