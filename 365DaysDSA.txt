@@ -86,8 +86,9 @@
 83. Revision : Split a String in Balanced Strings - Leet Code 1221
 84. Revision : Palindrome Check - Leet Code 125
 85. Revision : Largest Odd Number in a String: Leet Code 1912
-86. Revision :
-87. Revision :
+86. Revision : Valid Anagram : Leet Code 242
+87. Revision : Largest Odd Number in a String: Leet Code 1912
 88. Revision :
 89. Revision :
+90. Revision :
 
