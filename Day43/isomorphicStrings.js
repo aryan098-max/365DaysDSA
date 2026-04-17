@@ -14,7 +14,7 @@ function isIsomorphic(s,t){
 
         if(!mapStoT[s[i]] && !mapTtoS[t[i]]){
 
-            // creating mapping a:e, e:a
+            // creating each others mapping a:e, e:a
             mapStoT[s[i]] = t[i];
             mapTtoS[t[i]] = s[i];
         }
