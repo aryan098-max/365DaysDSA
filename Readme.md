@@ -238,9 +238,9 @@
 
 93. Revision : Insertion Sort
 
-94. Revision :
+94. Revision : Isomorphic & Longest Common Prefix: Leet Code 14 & 205
 
-95. Revision :
+95. Revision : Reverse String II: Leet Code 541
 
 96. Revision :
 

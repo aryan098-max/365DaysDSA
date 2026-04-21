@@ -7,7 +7,7 @@ function longestCommonPrefix(strs){
         let ch = strs[0][x];
 
         // for loop run from 1 until the length of the array is exhausted
-        for(let i=1; i<strs.length; i++){
+        for(let i=1; i < strs.length; i++){
 
             if(ch !== strs[i][x] || x >= strs[i].length){
 
