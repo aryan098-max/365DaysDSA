@@ -230,11 +230,11 @@
 
 89. Revision : Find Most Frequest Vowel & Consonant: Leet Code 3541
 
-90. Revision : Sort an Array: Leet Code. 912
+90. Revision : Sort an Array: Leet Code 912
 
-91. Revision :
+91. Revision : Isomorphic Strings: Leet Code 205
 
-92. Revision :
+92. Revision : Bubble Sort
 
 93. Revision :
 
