@@ -1,7 +1,7 @@
 # Question - Reverse String 
-- For every k characters reverse 2k characters
-- This means that if there are "abcdefg" total there are 7 letters
-- For every 4 characters we have to reverse 2 characters, k = 2 & 2k =4
+- Reverse the first k characters for every 2k characters
+- This means that if there are "abcdefg" total there are 7 letters, k = 2
+- For every 2k = 2* 2 = 4 characters we have to reverse 2 characters, k = 2 & 2k =4
 
 s = "abcdef";
 k = 2;
@@ -13,12 +13,13 @@ output = "bacdfe"
 - s.split("") 
 
 - The first loop runs i = i+(2*k) times, so that it can jump to the 2k character
+  Introduce two new variables n = k , mid = k/2,
 
-- The second loop runs normally, however, we need to introduce two new variables
-- n = k , mid = k/2, our second loop runs till mid because, abcd, we need to reverse
-  a & b, therefore, mid runs till 0 and 1, only the first and second string are reversed
+- The second loop runs normally, however, we need to introduce  our second loop runs 
+  till mid because, abcd, we need to reverse a & b, therefore, mid runs till 0 and 1, 
+  only the first and second string are reversed
 
-- Next, during swapping we will follow the same pattern as reverse stringI. s[ j ] = s[ n-1-j ]
+- Next, during swapping we will follow the same pattern as reverse string I. s[ j ] = s[ n-1-j ]
   why we are reducing n by 1 because n = k = 2, which inlcudes 0, 1 & 2 index 1 index extra
 - Therefore, s[ j ] = s[ n-1-j ], why -j because we have to reduce from back
 

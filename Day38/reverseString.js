@@ -10,6 +10,7 @@ function reverseStr(s,k){
     let n = k;
     let mid = Math.floor(n/2);
 
+    // We need second loop for reversing k string for each 2k string
     for(let j=0; j<mid; j++){
 
         let temp = s[j+i];
@@ -20,7 +21,7 @@ function reverseStr(s,k){
   return s.join("");
 }
 
-const s = "abcdef";
+const s = "abcdefgh";
 const k = 2;
 const output = reverseStr(s, k);
 console.log(output);

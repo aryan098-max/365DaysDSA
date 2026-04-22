@@ -212,9 +212,42 @@
 
 80. Binary Search Algorithm: Find Minimum in Rotated Sorted Array: Leet Code 153
 
-81. Revision
+81. Revision : Sort Array: Leet Code 912
 
-82. Revision
+82. Revision : Length of Last Word: Leet Code 58
+
+83. Revision : Split a String in Balanced Strings: Leet Code 1221
+
+84. Revision : Palindrome Check: Leet Code 125
+
+85. Revision : Largest Odd Number in a String: Leet Code 1903
+
+86. Revision : Largest Common Prefix : Leet Code 14
+
+87. Revision : Valid Anagram: Leet Code 242
+
+88. Revision : Largest Common prefix: Leet Code 14
+
+89. Revision : Find Most Frequest Vowel & Consonant: Leet Code 3541
+
+90. Revision : Sort an Array: Leet Code 912
+
+91. Revision : Isomorphic Strings: Leet Code 205
+
+92. Revision : Bubble Sort
+
+93. Revision : Insertion Sort
+
+94. Revision : Isomorphic & Longest Common Prefix: Leet Code 14 & 205
+
+95. Revision : Reverse String II: Leet Code 541
+
+96. Revision :
+
+97. Revision :
+
+98. Revision :
+
 
 
 
