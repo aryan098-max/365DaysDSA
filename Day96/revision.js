@@ -1,30 +1,24 @@
 /**
- * @param {string} s
- * @param {number} k
+ * @param {string[]} strs
  * @return {string}
  */
-var reverseStr = function(s, k) {
+var longestCommonPrefix = function(strs) {
 
-     // first split the string
-      s = s.split("");
-     
-     for(let i=0; i<s.length; i=i+(2*k)){
+    let x = 0;
 
-        // Introducing n for mid calculation
-        let n = k;
+    while(x < strs[0].length){
 
-        // find the middle 
-        let mid = Math.floor(k/2);
+        let ch = strs[0][x];
 
-        // second loop for actually reversing the each k string
-        for(let j=0; j<mid; j++){
+        for(let i=1; i<strs.length; i++){
 
-            let temp = s[j + i];
-            s[j + i] = s[n-1-j+i];
-            s[n-1-j+i] = temp;
+            if(ch !== strs[i][x] || x >= strs[i].length){
+                return strs[0].substring(0,x);
+            }
         }
-     }
+        ++x;
+    }
 
-     return s.join("");
-    
+    // entire string is common
+    return strs[0];
 };

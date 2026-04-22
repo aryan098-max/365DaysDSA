@@ -242,7 +242,7 @@
 
 95. Revision : Reverse String II: Leet Code 541
 
-96. Revision :
+96. Revision : Longest Common Prefix: Leet Code 205
 
 97. Revision :
 
