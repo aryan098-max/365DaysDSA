@@ -196,7 +196,7 @@
 
 72. Stack & Queues: Daily Temperatures: Leet Code 739
 
-73. Staack & Queues: Next Greater Element II: Leet Code 503
+73. Stack & Queues: Next Greater Element II: Leet Code 503
 
 74. Stack & Queues: Rotting Oranges: Leet Code Leet Code 994
 
@@ -242,7 +242,7 @@
 
 95. Revision : Reverse String II: Leet Code 541
 
-96. Revision :
+96. Revision : Longest Common Prefix: Leet Code 205
 
 97. Revision :
 
