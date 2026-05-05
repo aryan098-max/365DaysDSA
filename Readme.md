@@ -244,7 +244,7 @@
 
 96. Revision : Longest Common Prefix: Leet Code 205
 
-97. Revision :
+97. Revision : Palindrome: Leet Code 125
 
 98. Revision :
 
