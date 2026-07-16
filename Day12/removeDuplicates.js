@@ -8,6 +8,7 @@ function removeDuplicates(nums){
         if(arr[i]>arr[tracker]){
 
             tracker = tracker + 1;
+            // shift unique ahead
             arr[tracker] = arr[i];
         }
     }
