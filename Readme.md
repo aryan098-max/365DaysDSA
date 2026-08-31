@@ -248,11 +248,11 @@
 
 98. Revision : Middle of the Linked List: Leet Code 876
 
-99. Revision :
+99. Revision : Longest Common Prefix: Leet Code 14
 
-100. Revision :
+100. Revision : Reverse String: Leet Code 344
 
-101. Revision :
+101. Revision : Remove Duplicates: Leet Code 26
 
 102. Revision :
 
@@ -278,7 +278,23 @@
 
 113. Revision : 
 
-114. Revision : 
+114. Revision :
+
+220. Revision: Linked List Cycle: Leet Code 141
+
+221. Revision: Search in Rotated Sorted Array: Leet Code 33
+
+222. Revision : Find Peak Element: Leet Code 162
+
+223. Revision : Evaluate Reverse Polish Notation: Leet Code 150
+
+224. Revision : Odd Even Linked List: Leet Code 328
+
+225. Revision : Guess Number Higher or Lower: Leet Code 374
+
+226. Revision : Rotate List: Leet Code 61
+
+227. Revision: Remove Linked List Elements: Leet Code 203
 
 
 
