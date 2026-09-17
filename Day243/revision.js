@@ -1,10 +1,10 @@
 // # 88. Merge Sorted Array
 
-var merge = function(t1, m, t2, n) {
+var merge = function(nums1, m, nums2, n) {
 
 
-    let t1 = m-1;
-    let t2 = n-1;   
+    t1 = m-1;
+    t2 = n-1;   
 
     let len = nums1.length-1;
 
