@@ -26,5 +26,4 @@ var removeElements = function(head, n) {
 
     // return sentinel.next to cover the head being Nth index
     return sentinel.next;
-
 }
